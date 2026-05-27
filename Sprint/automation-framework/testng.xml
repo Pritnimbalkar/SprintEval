@@ -1,0 +1,206 @@
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationSuite">
+
+    <test name="LoginTests">
+
+        <classes>
+
+            <class name="tests.ui.LoginTests"/>
+
+        </classes>
+
+    </test>
+
+</suite> -->
+
+
+
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationSuite">
+
+    <test name="NotesTests">
+
+        <classes>
+
+            <class name="tests.ui.NotesUiTests"/>
+            
+
+        </classes>
+
+    </test>
+
+</suite> -->
+
+
+
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="APITestSuite">
+
+    <test name="NotesAPITests">
+
+        <classes>
+
+            <class name="tests.api.NotesApiTests"/>
+
+        </classes>
+
+    </test>
+
+</suite> -->
+
+
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="HybridSuite">
+
+    <test name="HybridTests">
+
+        <classes>
+
+            <class name="tests.e2e.NotesHybridTests"/>
+
+        </classes>
+
+    </test>
+
+</suite> -->
+
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationSuite">
+
+    <test name="DeleteNotesTests">
+
+        <classes>
+
+            <class name="tests.api.NotesDeleteApiTests"/>
+            
+
+        </classes>
+
+    </test>
+
+</suite> -->
+
+
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationSuite">
+
+    <test name="DeleteHybridNotesTests">
+
+        <classes>
+
+            <class name="tests.e2e.NotesDeletionHybridTests"/>
+            
+
+        </classes>
+
+    </test>
+
+</suite> -->
+
+
+
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationSuite">
+
+    <test name="PerformanceNotesTests">
+
+        <classes>
+
+           <class name="tests.api.NotesPerformanceApiTests"/>
+            
+
+        </classes>
+
+    </test>
+
+</suite> -->
+
+
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationSuite">
+
+    <test name="unauthorizedToken">
+
+        <classes>
+
+           <class name="tests.api.UnauthorizedApiTests"/>
+            
+
+        </classes>
+
+    </test>
+
+</suite> -->
+
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationSuite">
+
+    <test name="AllTests">
+
+        <classes>
+
+            <class name="tests.ui.LoginTests"/>
+
+            <class name="tests.ui.NotesUiTests"/>
+
+            <class name="tests.api.NotesApiTests"/>
+
+            <class name="tests.e2e.NotesHybridTests"/>
+
+            <class name="tests.api.NotesDeleteApiTests"/>
+
+            <class name="tests.e2e.NotesDeletionHybridTests"/>
+
+            <class name="tests.api.NotesPerformanceApiTests"/>
+
+            <class name="tests.api.UnauthorizedApiTests"/>  
+
+        </classes>
+
+    </test>
+
+</suite>  -->
+
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite
+    name="ParallelSuite"
+    parallel="classes"
+    thread-count="4">
+
+    <test name="AllParallelTests">
+
+        <classes>
+
+            <class name="tests.ui.LoginTests"/>
+
+            <class name="tests.ui.NotesUiTests"/>
+
+            <class name="tests.api.NotesApiTests"/>
+
+            <class name="tests.e2e.NotesHybridTests"/>
+
+            <class name="tests.api.NotesDeleteApiTests"/>
+
+            <class name="tests.e2e.NotesDeletionHybridTests"/>
+
+            <class name="tests.api.NotesPerformanceApiTests"/>
+
+            <class name="tests.api.UnauthorizedApiTests"/>
+
+        </classes>
+
+    </test>
+
+</suite>

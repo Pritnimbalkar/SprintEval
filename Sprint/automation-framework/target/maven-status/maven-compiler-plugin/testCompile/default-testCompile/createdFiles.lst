@@ -1,0 +1,9 @@
+tests\api\NotesPerformanceApiTests.class
+base\BaseTest.class
+tests\e2e\NotesDeletionHybridTests.class
+tests\e2e\NotesHybridTests.class
+tests\ui\LoginTests.class
+tests\api\NotesApiTests.class
+tests\api\NotesDeleteApiTests.class
+tests\ui\NotesUiTests.class
+tests\api\UnauthorizedApiTests.class
