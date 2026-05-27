@@ -8,7 +8,7 @@ pipeline {
 
             steps {
 
-                git https://github.com/Pritnimbalkar/SprintEval.git'
+                git 'https://github.com/Pritnimbalkar/SprintEval.git'
             }
         }
 
