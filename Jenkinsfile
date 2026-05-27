@@ -16,7 +16,8 @@ pipeline {
 
             steps {
 
-                git 'https://github.com/Pritnimbalkar/SprintEval.git'
+                git branch: 'main',
+                    url: 'https://github.com/Pritnimbalkar/SprintEval.git'
             }
         }
 
