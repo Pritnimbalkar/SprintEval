@@ -25,7 +25,10 @@ pipeline {
 
             steps {
 
-                bat 'mvn clean test'
+                dir('Sprint/automation-framework') {
+
+                    bat 'mvn clean test'
+                }
             }
         }
 
