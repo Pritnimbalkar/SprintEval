@@ -1,0 +1,33 @@
+pipeline {
+
+    agent any
+
+    stages {
+
+        stage('Checkout') {
+
+            steps {
+
+                git 'https://github.com/Pritnimbalkar/implement5.git'
+            }
+        }
+
+        stage('Build & Test') {
+
+            steps {
+
+                bat 'mvn clean test'
+            }
+        }
+
+        stage('Allure Report') {
+
+            steps {
+
+                allure includeProperties: false,
+                       jdk: '',
+                       results: [[path: 'target/allure-results']]
+            }
+        }
+    }
+}
