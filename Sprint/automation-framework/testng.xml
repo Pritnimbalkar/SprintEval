@@ -191,7 +191,7 @@
 
             <class name="tests.e2e.NotesHybridTests"/>
 
-            <class name="tests.api.NotesDeleteApiTests"/>
+            <class name="tests.api.NotesDeleteApiTests"/> 
 
             <class name="tests.e2e.NotesDeletionHybridTests"/>
 

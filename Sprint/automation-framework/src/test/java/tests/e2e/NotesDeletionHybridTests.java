@@ -3,8 +3,10 @@ package tests.e2e;
 import api.NotesApi;
 import base.BaseTest;
 import io.restassured.response.Response;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import pages.LoginPage;
 import pages.NotesPage;
 
@@ -15,8 +17,10 @@ public class NotesDeletionHybridTests
 
     NotesPage notesPage;
 
+    // Unique title every run
+
     String title =
-            "Delete Hybrid Note";
+        "DeleteNote_" + (int)(Math.random()*1000);
 
     String description =
             "Delete validation";
@@ -48,7 +52,7 @@ public class NotesDeletionHybridTests
                 description
         );
 
-        // Fetch latest note ID
+        // Get latest note id
 
         String noteId =
                 NotesApi.getLatestNoteId();
@@ -58,37 +62,29 @@ public class NotesDeletionHybridTests
         Response response =
                 NotesApi.deleteNote(noteId);
 
+        // Verify delete success
+
         Assert.assertEquals(
                 response.getStatusCode(),
                 200
         );
 
-        // Backend sync wait
+        // Wait
 
         Thread.sleep(3000);
 
-        // Retry refresh logic
-
-        boolean notePresent = true;
-
-        // for (int i = 1; i <= 3; i++) {
+        // Refresh UI
 
         driver.navigate().refresh();
 
         Thread.sleep(2000);
 
-            notePresent =
-                    driver.getPageSource()
-                            .contains(title);
-
-        //     if (!notePresent) {
-
-        //         break;
-        //     }
-        // }
+        // Verify deleted note not visible
 
         Assert.assertFalse(
-                notePresent,
+                driver.getPageSource()
+                        .contains(title),
+
                 "Deleted note still visible in UI"
         );
     }
@@ -101,7 +97,8 @@ public class NotesDeletionHybridTests
                     "verifyDeletedNoteDisappearsFromUi"
     )
 
-    public void verifyDeletedNoteDoesNotReappearAfterRefresh() {
+    public void verifyDeletedNoteDoesNotReappearAfterRefresh()
+            throws InterruptedException {
 
         loginPage =
                 new LoginPage(driver);
@@ -116,16 +113,18 @@ public class NotesDeletionHybridTests
                 "user1A@x"
         );
 
-        // Refresh
+        // Refresh again
 
         driver.navigate().refresh();
 
-        boolean notePresent =
-                driver.getPageSource()
-                        .contains(title);
+        Thread.sleep(2000);
+
+        // Verify note not visible
 
         Assert.assertFalse(
-                notePresent,
+                driver.getPageSource()
+                        .contains(title),
+
                 "Deleted note reappeared after refresh"
         );
     }
