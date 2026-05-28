@@ -1,17 +1,20 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+
+import org.openqa.selenium.WebElement;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+
+import org.openqa.selenium.JavascriptExecutor;
 
 public class NotesPage {
 
@@ -24,122 +27,170 @@ public class NotesPage {
 
     // Locators
 
-    // Locators
-
     private By addNoteButton =
-        By.cssSelector("[data-testid='add-new-note']");
-
-    private By titleInput =
-        By.id("title");
-
-    private By descriptionInput =
-        By.id("description");
-
-    private By createButton =
-        By.cssSelector("[data-testid='note-submit']");
-
-    private By notesList =
-        By.cssSelector("[data-testid='note-card']");
-
-    
-
-    //Actions
-
-    public void clickAddNote() {
-
-    By freshAddNoteButton =
             By.cssSelector(
                 "[data-testid='add-new-note']"
             );
 
-    WebElement addBtn =
+    private By titleInput =
+            By.id("title");
+
+    private By descriptionInput =
+            By.id("description");
+
+    private By createButton =
+            By.cssSelector(
+                "[data-testid='note-submit']"
+            );
+
+    // Wait utility
+
+  public WebDriverWait getWait() {
+
+    return new WebDriverWait(
+            driver,
+            Duration.ofSeconds(10)
+    );
+}
+
+    // Click Add Note
+
+public void clickAddNote() {
+
+    getWait().until(
+            ExpectedConditions
+                    .visibilityOfElementLocated(
+                            addNoteButton
+                    )
+    );
+
+    WebElement button =
             driver.findElement(
-                    freshAddNoteButton
+                    addNoteButton
             );
 
     JavascriptExecutor js =
             (JavascriptExecutor) driver;
 
     js.executeScript(
-            "arguments[0].scrollIntoView(true);",
-            addBtn
+            "arguments[0].scrollIntoView({block:'center'});",
+            button
     );
 
     js.executeScript(
             "arguments[0].click();",
-            addBtn
+            button
     );
-    }
+}
+
+    // Enter Title
 
     public void enterTitle(String title) {
+
+        getWait().until(
+                ExpectedConditions
+                        .visibilityOfElementLocated(
+                                titleInput
+                        )
+        );
+
+        driver.findElement(titleInput)
+                .clear();
 
         driver.findElement(titleInput)
                 .sendKeys(title);
     }
 
-    public void enterDescription(String description) {
+    // Enter Description
+
+    public void enterDescription(
+            String description
+    ) {
+
+        driver.findElement(descriptionInput)
+                .clear();
 
         driver.findElement(descriptionInput)
                 .sendKeys(description);
     }
 
+    // Click Create
+
     public void clickCreate() {
+
+    WebElement createBtn =
+            driver.findElement(
+                    createButton
+            );
 
     JavascriptExecutor js =
             (JavascriptExecutor) driver;
 
     js.executeScript(
-            "arguments[0].click();",
-            driver.findElement(createButton)
+            "arguments[0].scrollIntoView({block:'center'});",
+            createBtn
     );
-    }
+
+    js.executeScript(
+            "arguments[0].click();",
+            createBtn
+    );
+        }
+
+    // Form Display Validation
 
     public boolean isCreateNoteFormDisplayed() {
 
-    return driver.findElement(createButton)
-            .isDisplayed();
+        return getWait().until(
+                ExpectedConditions
+                        .visibilityOfElementLocated(
+                                createButton
+                        )
+        ).isDisplayed();
     }
+
+    // Create Note Flow
 
     public void createNote(
-        String title,
-        String description
-    ) 
-    {
+            String title,
+            String description
+    ) {
 
-    clickAddNote();
+        clickAddNote();
 
-    WebDriverWait wait =
-            new WebDriverWait(
-                    driver,
-                    Duration.ofSeconds(10)
-            );
+        enterTitle(title);
 
-    wait.until(
-            ExpectedConditions.visibilityOfElementLocated(
-                    titleInput
-            )
-    );
+        enterDescription(description);
 
-    driver.findElement(titleInput)
-            .sendKeys(title);
-
-    driver.findElement(descriptionInput)
-            .sendKeys(description);
-
-    clickCreate();
+        clickCreate();
     }
+
+    // Verify Note Exists
 
     public boolean isNoteDisplayed(
-        String noteTitle
-    ) 
-   {
+            String noteTitle
+    ) {
 
-    return driver.getPageSource()
-            .contains(noteTitle);
+        return driver.findElements(
+                By.xpath(
+                    "//*[contains(text(),'"
+                    + noteTitle +
+                    "')]"
+                )
+        ).size() > 0;
     }
+
+    // Refresh Page
 
     public void refreshPage() {
 
-    driver.navigate().refresh();
+        driver.navigate().refresh();
+
+        getWait().until(
+                ExpectedConditions
+                        .visibilityOfElementLocated(
+                                addNoteButton
+                        )
+        );
     }
 }

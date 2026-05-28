@@ -1,3 +1,4 @@
+listeners\TestListener.class
 tests\api\NotesPerformanceApiTests.class
 base\BaseTest.class
 tests\e2e\NotesDeletionHybridTests.class

@@ -1,20 +1,25 @@
 package tests.ui;
 
 import base.BaseTest;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 import pages.LoginPage;
 import pages.NotesPage;
+
 import utils.ExcelUtils;
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class NotesUiTests extends BaseTest {
+public class NotesUiTests
+        extends BaseTest {
 
     LoginPage loginPage;
 
@@ -38,7 +43,7 @@ public class NotesUiTests extends BaseTest {
             String title,
             String description,
             String type
-    ) {
+    ) throws InterruptedException {
 
         loginPage =
                 new LoginPage(driver);
@@ -53,7 +58,7 @@ public class NotesUiTests extends BaseTest {
                 "user1A@x"
         );
 
-        // Explicit Wait
+        // Wait for dashboard
 
         WebDriverWait wait =
                 new WebDriverWait(
@@ -70,31 +75,60 @@ public class NotesUiTests extends BaseTest {
                         )
         );
 
-        // Create Note
+        // Unique title for valid notes
 
-        notesPage.createNote(
-                title,
-                description
-        );
-
-        // Valid Note Creation
+        String uniqueTitle = title;
 
         if (type.equals("valid")) {
 
+            uniqueTitle =
+                    title + "_"
+                    + System.currentTimeMillis();
+        }
+
+        // Create note
+
+        notesPage.createNote(
+                uniqueTitle,
+                description
+        );
+
+        // Valid Note Tests
+
+        if (type.equals("valid")) {
+
+            // Wait for note creation
+
+            Thread.sleep(5000);
+
+            // Verify note visible
+
             Assert.assertTrue(
-                    notesPage.isNoteDisplayed(title),
+                    notesPage.isNoteDisplayed(
+                            uniqueTitle
+                    ),
                     "Created note not visible in UI"
             );
 
+            // Refresh page
+
             notesPage.refreshPage();
 
+            // Wait after refresh
+
+            Thread.sleep(5000);
+
+            // Verify note still exists
+
             Assert.assertTrue(
-                    notesPage.isNoteDisplayed(title),
+                    notesPage.isNoteDisplayed(
+                            uniqueTitle
+                    ),
                     "Note disappeared after refresh"
             );
         }
 
-        // Empty Title
+        // Empty Title Validation
 
         else if (type.equals("emptyTitle")) {
 
@@ -104,7 +138,7 @@ public class NotesUiTests extends BaseTest {
             );
         }
 
-        // Empty Description
+        // Empty Description Validation
 
         else if (type.equals("emptyDescription")) {
 
@@ -114,7 +148,7 @@ public class NotesUiTests extends BaseTest {
             );
         }
 
-        // Empty All
+        // Empty All Validation
 
         else if (type.equals("emptyAll")) {
 
@@ -124,7 +158,7 @@ public class NotesUiTests extends BaseTest {
             );
         }
 
-        // Special Characters
+        // Special Characters Validation
 
         else if (type.equals("specialChars")) {
 

@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-28T01:51:25 IST" name="ParallelSuite" finished-at="2026-05-28T01:52:28 IST" duration-ms="63476">
+  <suite started-at="2026-05-28T12:23:57 IST" name="ParallelSuite" finished-at="2026-05-28T12:26:09 IST" duration-ms="132314">
     <groups>
     </groups>
-    <test started-at="2026-05-28T01:51:25 IST" name="AllParallelTests" finished-at="2026-05-28T01:52:28 IST" duration-ms="63476">
+    <test started-at="2026-05-28T12:23:57 IST" name="AllParallelTests" finished-at="2026-05-28T12:26:09 IST" duration-ms="132314">
       <class name="tests.api.UnauthorizedApiTests">
-        <test-method signature="verifyUnauthorizedApiRequestHandling()[pri:0, instance:tests.api.UnauthorizedApiTests@431cd9b2]" started-at="2026-05-28T01:51:25 IST" name="verifyUnauthorizedApiRequestHandling" finished-at="2026-05-28T01:51:28 IST" duration-ms="2898" status="PASS">
+        <test-method signature="verifyUnauthorizedApiRequestHandling()[pri:0, instance:tests.api.UnauthorizedApiTests@26abb146]" started-at="2026-05-28T12:23:57 IST" name="verifyUnauthorizedApiRequestHandling" finished-at="2026-05-28T12:24:02 IST" duration-ms="4565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUnauthorizedApiRequestHandling -->
       </class> <!-- tests.api.UnauthorizedApiTests -->
       <class name="tests.ui.LoginTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.LoginTests@61c4eee0]" started-at="2026-05-28T01:51:26 IST" name="setUp" finished-at="2026-05-28T01:51:29 IST" duration-ms="2701" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.LoginTests@533bda92]" started-at="2026-05-28T12:24:00 IST" name="setUp" finished-at="2026-05-28T12:24:05 IST" duration-ms="4757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.LoginTests@61c4eee0]" started-at="2026-05-28T01:51:29 IST" name="verifyLogin" data-provider="TestData" finished-at="2026-05-28T01:51:35 IST" duration-ms="5341" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.LoginTests@533bda92]" started-at="2026-05-28T12:24:05 IST" name="verifyLogin" data-provider="TestData" finished-at="2026-05-28T12:24:17 IST" duration-ms="12670" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,22 +38,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.LoginTests@61c4eee0]" started-at="2026-05-28T01:51:35 IST" name="tearDown" finished-at="2026-05-28T01:51:35 IST" duration-ms="708" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=LoginTests.verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.LoginTests@61c4eee0] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.LoginTests@533bda92]" started-at="2026-05-28T12:24:18 IST" name="tearDown" finished-at="2026-05-28T12:24:29 IST" duration-ms="11236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.LoginTests@61c4eee0]" started-at="2026-05-28T01:51:35 IST" name="setUp" finished-at="2026-05-28T01:51:41 IST" duration-ms="5322" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.LoginTests@533bda92]" started-at="2026-05-28T12:24:29 IST" name="setUp" finished-at="2026-05-28T12:24:34 IST" duration-ms="4827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.LoginTests@61c4eee0]" started-at="2026-05-28T01:51:41 IST" name="verifyLogin" data-provider="TestData" finished-at="2026-05-28T01:51:41 IST" duration-ms="886" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.LoginTests@533bda92]" started-at="2026-05-28T12:24:34 IST" name="verifyLogin" data-provider="TestData" finished-at="2026-05-28T12:24:34 IST" duration-ms="603" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,22 +67,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.LoginTests@61c4eee0]" started-at="2026-05-28T01:51:41 IST" name="tearDown" finished-at="2026-05-28T01:51:44 IST" duration-ms="2908" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=LoginTests.verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.LoginTests@61c4eee0] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.LoginTests@533bda92]" started-at="2026-05-28T12:24:34 IST" name="tearDown" finished-at="2026-05-28T12:24:35 IST" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.LoginTests@61c4eee0]" started-at="2026-05-28T01:51:44 IST" name="setUp" finished-at="2026-05-28T01:51:48 IST" duration-ms="3704" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.LoginTests@533bda92]" started-at="2026-05-28T12:24:35 IST" name="setUp" finished-at="2026-05-28T12:24:39 IST" duration-ms="4085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.LoginTests@61c4eee0]" started-at="2026-05-28T01:51:48 IST" name="verifyLogin" data-provider="TestData" finished-at="2026-05-28T01:51:48 IST" duration-ms="307" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.LoginTests@533bda92]" started-at="2026-05-28T12:24:39 IST" name="verifyLogin" data-provider="TestData" finished-at="2026-05-28T12:24:40 IST" duration-ms="787" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,124 +96,89 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.LoginTests@61c4eee0]" started-at="2026-05-28T01:51:48 IST" name="tearDown" finished-at="2026-05-28T01:51:49 IST" duration-ms="302" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=LoginTests.verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.LoginTests@61c4eee0] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.LoginTests@533bda92]" started-at="2026-05-28T12:24:40 IST" name="tearDown" finished-at="2026-05-28T12:24:41 IST" duration-ms="1600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.ui.LoginTests -->
       <class name="tests.api.NotesPerformanceApiTests">
-        <test-method signature="verifyApiResponseTime()[pri:1, instance:tests.api.NotesPerformanceApiTests@65f8f5ae]" started-at="2026-05-28T01:51:45 IST" name="verifyApiResponseTime" finished-at="2026-05-28T01:51:46 IST" duration-ms="1432" status="PASS">
+        <test-method signature="verifyApiResponseTime()[pri:1, instance:tests.api.NotesPerformanceApiTests@194fad1]" started-at="2026-05-28T12:24:35 IST" name="verifyApiResponseTime" finished-at="2026-05-28T12:24:36 IST" duration-ms="1165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyApiResponseTime -->
-        <test-method signature="verifyApiStabilityDuringMultipleRequests()[pri:2, instance:tests.api.NotesPerformanceApiTests@65f8f5ae]" started-at="2026-05-28T01:51:46 IST" name="verifyApiStabilityDuringMultipleRequests" finished-at="2026-05-28T01:51:55 IST" duration-ms="8894" status="PASS">
+        <test-method signature="verifyApiStabilityDuringMultipleRequests()[pri:2, instance:tests.api.NotesPerformanceApiTests@194fad1]" started-at="2026-05-28T12:24:36 IST" name="verifyApiStabilityDuringMultipleRequests" finished-at="2026-05-28T12:24:45 IST" duration-ms="9037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyApiStabilityDuringMultipleRequests -->
       </class> <!-- tests.api.NotesPerformanceApiTests -->
       <class name="tests.e2e.NotesDeletionHybridTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.e2e.NotesDeletionHybridTests@72c8e7b]" started-at="2026-05-28T01:51:37 IST" name="setUp" finished-at="2026-05-28T01:51:41 IST" duration-ms="4385" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.e2e.NotesDeletionHybridTests@f1da57d]" started-at="2026-05-28T12:24:16 IST" name="setUp" finished-at="2026-05-28T12:24:23 IST" duration-ms="7261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyDeletedNoteDisappearsFromUi()[pri:1, instance:tests.e2e.NotesDeletionHybridTests@72c8e7b]" started-at="2026-05-28T01:51:41 IST" name="verifyDeletedNoteDisappearsFromUi" finished-at="2026-05-28T01:51:57 IST" duration-ms="16295" status="PASS">
+        <test-method signature="verifyDeletedNoteDisappearsFromUi()[pri:1, instance:tests.e2e.NotesDeletionHybridTests@f1da57d]" started-at="2026-05-28T12:24:23 IST" name="verifyDeletedNoteDisappearsFromUi" finished-at="2026-05-28T12:25:02 IST" duration-ms="38717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDeletedNoteDisappearsFromUi -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.e2e.NotesDeletionHybridTests@72c8e7b]" started-at="2026-05-28T01:51:57 IST" name="tearDown" finished-at="2026-05-28T01:51:58 IST" duration-ms="358" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyDeletedNoteDisappearsFromUi status=SUCCESS method=NotesDeletionHybridTests.verifyDeletedNoteDisappearsFromUi()[pri:1, instance:tests.e2e.NotesDeletionHybridTests@72c8e7b] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.e2e.NotesDeletionHybridTests@f1da57d]" started-at="2026-05-28T12:25:02 IST" name="tearDown" finished-at="2026-05-28T12:25:03 IST" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.e2e.NotesDeletionHybridTests@72c8e7b]" started-at="2026-05-28T01:51:58 IST" name="setUp" finished-at="2026-05-28T01:52:02 IST" duration-ms="3732" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.e2e.NotesDeletionHybridTests@f1da57d]" started-at="2026-05-28T12:25:03 IST" name="setUp" finished-at="2026-05-28T12:25:08 IST" duration-ms="4986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyDeletedNoteDoesNotReappearAfterRefresh()[pri:2, instance:tests.e2e.NotesDeletionHybridTests@72c8e7b]" started-at="2026-05-28T01:52:02 IST" name="verifyDeletedNoteDoesNotReappearAfterRefresh" finished-at="2026-05-28T01:52:28 IST" depends-on-methods="tests.e2e.NotesDeletionHybridTests.verifyDeletedNoteDisappearsFromUi" duration-ms="26268" status="PASS">
+        <test-method signature="verifyDeletedNoteDoesNotReappearAfterRefresh()[pri:2, instance:tests.e2e.NotesDeletionHybridTests@f1da57d]" started-at="2026-05-28T12:25:08 IST" name="verifyDeletedNoteDoesNotReappearAfterRefresh" finished-at="2026-05-28T12:25:23 IST" depends-on-methods="tests.e2e.NotesDeletionHybridTests.verifyDeletedNoteDisappearsFromUi" duration-ms="15759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDeletedNoteDoesNotReappearAfterRefresh -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.e2e.NotesDeletionHybridTests@72c8e7b]" started-at="2026-05-28T01:52:28 IST" name="tearDown" finished-at="2026-05-28T01:52:28 IST" duration-ms="346" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyDeletedNoteDoesNotReappearAfterRefresh status=SUCCESS method=NotesDeletionHybridTests.verifyDeletedNoteDoesNotReappearAfterRefresh()[pri:2, instance:tests.e2e.NotesDeletionHybridTests@72c8e7b] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.e2e.NotesDeletionHybridTests@f1da57d]" started-at="2026-05-28T12:25:23 IST" name="tearDown" finished-at="2026-05-28T12:25:24 IST" duration-ms="506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.e2e.NotesDeletionHybridTests -->
       <class name="tests.e2e.NotesHybridTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.e2e.NotesHybridTests@338fc1d8]" started-at="2026-05-28T01:51:28 IST" name="setUp" finished-at="2026-05-28T01:51:33 IST" duration-ms="4664" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.e2e.NotesHybridTests@1807e3f6]" started-at="2026-05-28T12:24:02 IST" name="setUp" finished-at="2026-05-28T12:24:20 IST" duration-ms="17585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUiCreatedNoteInApi()[pri:1, instance:tests.e2e.NotesHybridTests@338fc1d8]" started-at="2026-05-28T01:51:33 IST" name="verifyUiCreatedNoteInApi" finished-at="2026-05-28T01:51:37 IST" duration-ms="3790" status="PASS">
+        <test-method signature="verifyUiCreatedNoteInApi()[pri:1, instance:tests.e2e.NotesHybridTests@1807e3f6]" started-at="2026-05-28T12:24:20 IST" name="verifyUiCreatedNoteInApi" finished-at="2026-05-28T12:24:28 IST" duration-ms="8152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUiCreatedNoteInApi -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.e2e.NotesHybridTests@338fc1d8]" started-at="2026-05-28T01:51:37 IST" name="tearDown" finished-at="2026-05-28T01:51:38 IST" duration-ms="1170" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyUiCreatedNoteInApi status=SUCCESS method=NotesHybridTests.verifyUiCreatedNoteInApi()[pri:1, instance:tests.e2e.NotesHybridTests@338fc1d8] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.e2e.NotesHybridTests@1807e3f6]" started-at="2026-05-28T12:24:28 IST" name="tearDown" finished-at="2026-05-28T12:24:35 IST" duration-ms="6982" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.e2e.NotesHybridTests@338fc1d8]" started-at="2026-05-28T01:51:38 IST" name="setUp" finished-at="2026-05-28T01:51:43 IST" duration-ms="4874" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.e2e.NotesHybridTests@1807e3f6]" started-at="2026-05-28T12:24:41 IST" name="setUp" finished-at="2026-05-28T12:24:46 IST" duration-ms="4140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyFieldMatchingAndNoteIdConsistency()[pri:2, instance:tests.e2e.NotesHybridTests@338fc1d8]" started-at="2026-05-28T01:51:43 IST" name="verifyFieldMatchingAndNoteIdConsistency" finished-at="2026-05-28T01:51:44 IST" duration-ms="1223" status="PASS">
+        <test-method signature="verifyCreatedNoteStillExistsInApi()[pri:2, instance:tests.e2e.NotesHybridTests@1807e3f6]" started-at="2026-05-28T12:24:46 IST" name="verifyCreatedNoteStillExistsInApi" finished-at="2026-05-28T12:24:49 IST" depends-on-methods="tests.e2e.NotesHybridTests.verifyUiCreatedNoteInApi" duration-ms="3320" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFieldMatchingAndNoteIdConsistency -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.e2e.NotesHybridTests@338fc1d8]" started-at="2026-05-28T01:51:44 IST" name="tearDown" finished-at="2026-05-28T01:51:45 IST" duration-ms="741" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyFieldMatchingAndNoteIdConsistency status=SUCCESS method=NotesHybridTests.verifyFieldMatchingAndNoteIdConsistency()[pri:2, instance:tests.e2e.NotesHybridTests@338fc1d8] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- verifyCreatedNoteStillExistsInApi -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.e2e.NotesHybridTests@1807e3f6]" started-at="2026-05-28T12:24:49 IST" name="tearDown" finished-at="2026-05-28T12:24:49 IST" duration-ms="616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.e2e.NotesHybridTests -->
       <class name="tests.api.NotesDeleteApiTests">
-        <test-method signature="verifySuccessfulNoteDeletion()[pri:1, instance:tests.api.NotesDeleteApiTests@4722ef0c]" started-at="2026-05-28T01:51:33 IST" name="verifySuccessfulNoteDeletion" finished-at="2026-05-28T01:51:35 IST" duration-ms="2330" status="PASS">
+        <test-method signature="verifySuccessfulNoteDeletion()[pri:1, instance:tests.api.NotesDeleteApiTests@480d3575]" started-at="2026-05-28T12:24:08 IST" name="verifySuccessfulNoteDeletion" finished-at="2026-05-28T12:24:13 IST" duration-ms="5475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySuccessfulNoteDeletion -->
-        <test-method signature="verifyInvalidNoteIdDeletion()[pri:2, instance:tests.api.NotesDeleteApiTests@4722ef0c]" started-at="2026-05-28T01:51:35 IST" name="verifyInvalidNoteIdDeletion" finished-at="2026-05-28T01:51:37 IST" duration-ms="1200" status="PASS">
+        <test-method signature="verifyInvalidNoteIdDeletion()[pri:2, instance:tests.api.NotesDeleteApiTests@480d3575]" started-at="2026-05-28T12:24:13 IST" name="verifyInvalidNoteIdDeletion" finished-at="2026-05-28T12:24:16 IST" duration-ms="2620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidNoteIdDeletion -->
       </class> <!-- tests.api.NotesDeleteApiTests -->
       <class name="tests.ui.NotesUiTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:51:26 IST" name="setUp" finished-at="2026-05-28T01:51:32 IST" duration-ms="5876" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:24:00 IST" name="setUp" finished-at="2026-05-28T12:24:07 IST" duration-ms="6851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:51:32 IST" name="verifyNoteCreation" data-provider="notesData" finished-at="2026-05-28T01:51:44 IST" duration-ms="11564" status="PASS">
+        <test-method signature="verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:24:07 IST" name="verifyNoteCreation" data-provider="notesData" finished-at="2026-05-28T12:24:37 IST" duration-ms="30487" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -248,22 +199,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNoteCreation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:51:44 IST" name="tearDown" finished-at="2026-05-28T01:51:45 IST" duration-ms="1099" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyNoteCreation status=SUCCESS method=NotesUiTests.verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@15a34df2] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:24:37 IST" name="tearDown" finished-at="2026-05-28T12:24:40 IST" duration-ms="2333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:51:45 IST" name="setUp" finished-at="2026-05-28T01:51:49 IST" duration-ms="3742" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:24:40 IST" name="setUp" finished-at="2026-05-28T12:24:45 IST" duration-ms="5260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:51:49 IST" name="verifyNoteCreation" data-provider="notesData" finished-at="2026-05-28T01:51:53 IST" duration-ms="4105" status="PASS">
+        <test-method signature="verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:24:45 IST" name="verifyNoteCreation" data-provider="notesData" finished-at="2026-05-28T12:25:42 IST" duration-ms="56982" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -284,22 +228,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNoteCreation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:51:53 IST" name="tearDown" finished-at="2026-05-28T01:51:53 IST" duration-ms="394" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyNoteCreation status=SUCCESS method=NotesUiTests.verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@15a34df2] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:25:42 IST" name="tearDown" finished-at="2026-05-28T12:25:44 IST" duration-ms="1978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:51:53 IST" name="setUp" finished-at="2026-05-28T01:51:57 IST" duration-ms="3507" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:25:44 IST" name="setUp" finished-at="2026-05-28T12:25:48 IST" duration-ms="4396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:51:57 IST" name="verifyNoteCreation" data-provider="notesData" finished-at="2026-05-28T01:51:58 IST" duration-ms="1473" status="PASS">
+        <test-method signature="verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:25:48 IST" name="verifyNoteCreation" data-provider="notesData" finished-at="2026-05-28T12:25:50 IST" duration-ms="2025" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -320,22 +257,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNoteCreation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:51:58 IST" name="tearDown" finished-at="2026-05-28T01:51:59 IST" duration-ms="527" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyNoteCreation status=SUCCESS method=NotesUiTests.verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@15a34df2] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:25:50 IST" name="tearDown" finished-at="2026-05-28T12:25:51 IST" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:51:59 IST" name="setUp" finished-at="2026-05-28T01:52:03 IST" duration-ms="3743" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:25:51 IST" name="setUp" finished-at="2026-05-28T12:25:54 IST" duration-ms="3589" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:52:03 IST" name="verifyNoteCreation" data-provider="notesData" finished-at="2026-05-28T01:52:04 IST" duration-ms="1568" status="PASS">
+        <test-method signature="verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:25:54 IST" name="verifyNoteCreation" data-provider="notesData" finished-at="2026-05-28T12:25:56 IST" duration-ms="1878" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -356,22 +286,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNoteCreation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:52:04 IST" name="tearDown" finished-at="2026-05-28T01:52:04 IST" duration-ms="362" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyNoteCreation status=SUCCESS method=NotesUiTests.verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@15a34df2] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:25:56 IST" name="tearDown" finished-at="2026-05-28T12:25:56 IST" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:52:04 IST" name="setUp" finished-at="2026-05-28T01:52:08 IST" duration-ms="3379" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:25:56 IST" name="setUp" finished-at="2026-05-28T12:26:02 IST" duration-ms="5223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:52:08 IST" name="verifyNoteCreation" data-provider="notesData" finished-at="2026-05-28T01:52:09 IST" duration-ms="1531" status="PASS">
+        <test-method signature="verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:26:02 IST" name="verifyNoteCreation" data-provider="notesData" finished-at="2026-05-28T12:26:03 IST" duration-ms="1707" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -392,22 +315,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNoteCreation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:52:09 IST" name="tearDown" finished-at="2026-05-28T01:52:10 IST" duration-ms="349" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyNoteCreation status=SUCCESS method=NotesUiTests.verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@15a34df2] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:26:03 IST" name="tearDown" finished-at="2026-05-28T12:26:04 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:52:10 IST" name="setUp" finished-at="2026-05-28T01:52:13 IST" duration-ms="3491" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:26:04 IST" name="setUp" finished-at="2026-05-28T12:26:07 IST" duration-ms="3780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:52:13 IST" name="verifyNoteCreation" data-provider="notesData" finished-at="2026-05-28T01:52:15 IST" duration-ms="1429" status="PASS">
+        <test-method signature="verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:26:07 IST" name="verifyNoteCreation" data-provider="notesData" finished-at="2026-05-28T12:26:09 IST" duration-ms="1619" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -428,24 +344,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNoteCreation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ui.NotesUiTests@15a34df2]" started-at="2026-05-28T01:52:15 IST" name="tearDown" finished-at="2026-05-28T01:52:15 IST" duration-ms="334" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyNoteCreation status=SUCCESS method=NotesUiTests.verifyNoteCreation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ui.NotesUiTests@15a34df2] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.NotesUiTests@17bffc17]" started-at="2026-05-28T12:26:09 IST" name="tearDown" finished-at="2026-05-28T12:26:09 IST" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.ui.NotesUiTests -->
       <class name="tests.api.NotesApiTests">
-        <test-method signature="verifyNewlyCreatedNoteAppearsInstantly()[pri:1, instance:tests.api.NotesApiTests@5b38c1ec]" started-at="2026-05-28T01:51:25 IST" name="verifyNewlyCreatedNoteAppearsInstantly" finished-at="2026-05-28T01:51:32 IST" duration-ms="6914" status="PASS">
+        <test-method signature="verifyNewlyCreatedNoteAppearsInstantly()[pri:1, instance:tests.api.NotesApiTests@6e535154]" started-at="2026-05-28T12:23:57 IST" name="verifyNewlyCreatedNoteAppearsInstantly" finished-at="2026-05-28T12:24:06 IST" duration-ms="9208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewlyCreatedNoteAppearsInstantly -->
-        <test-method signature="verifyNoteVisibilityAfterRefresh()[pri:2, instance:tests.api.NotesApiTests@5b38c1ec]" started-at="2026-05-28T01:51:32 IST" name="verifyNoteVisibilityAfterRefresh" finished-at="2026-05-28T01:51:33 IST" duration-ms="1434" status="PASS">
+        <test-method signature="verifyNoteVisibilityAfterRefresh()[pri:2, instance:tests.api.NotesApiTests@6e535154]" started-at="2026-05-28T12:24:06 IST" name="verifyNoteVisibilityAfterRefresh" finished-at="2026-05-28T12:24:08 IST" duration-ms="1319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNoteVisibilityAfterRefresh -->

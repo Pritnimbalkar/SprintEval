@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="64.274" tests="20" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="133.95" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\pritn\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.10_7\bin"/>
-    <property name="sun.java.command" value="C:\Users\pritn\AppData\Local\Temp\surefire15559941992242900120\surefirebooter-20260528015124187_3.jar C:\Users\pritn\AppData\Local\Temp\surefire15559941992242900120 2026-05-28T01-51-24_000-jvmRun1 surefire-20260528015124187_1tmp surefire_0-20260528015124187_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\pritn\AppData\Local\Temp\surefire2378964341964124454\surefirebooter-20260528122355436_3.jar C:\Users\pritn\AppData\Local\Temp\surefire2378964341964124454 2026-05-28T12-23-55_039-jvmRun1 surefire-20260528122355436_1tmp surefire_0-20260528122355436_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\pritn\Desktop\VScode projects\Sprint\automation-framework\target\test-classes;C:\Users\pritn\Desktop\VScode projects\Sprint\automation-framework\target\classes;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\pritn\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\pritn\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\pritn\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\pritn\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\pritn\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\pritn\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\pritn\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\pritn\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\pritn\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\pritn\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\pritn\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\pritn\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\pritn\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\pritn\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\pritn\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\pritn\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\pritn\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\pritn\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\pritn\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\pritn\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\pritn\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\pritn\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\pritn\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\pritn\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\pritn\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\pritn\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\pritn\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\pritn\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\pritn\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\pritn\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\pritn\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\pritn\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\pritn\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\pritn\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\pritn\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\pritn\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\pritn\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\pritn\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\pritn\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\pritn\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\pritn\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\pritn\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\pritn\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\pritn\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\pritn\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\pritn\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\pritn\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\pritn\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\pritn\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\pritn\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\pritn\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\pritn\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\pritn\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\pritn\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\pritn\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\pritn\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\pritn\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\pritn\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\pritn\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\pritn\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\pritn\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\pritn\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\pritn\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\pritn\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\pritn\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\pritn\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\pritn\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\pritn\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\pritn\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\pritn\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\pritn\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\pritn\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\pritn\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\pritn\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\pritn\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\pritn\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\pritn\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\pritn\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\pritn\AppData\Local\Temp\surefire15559941992242900120\surefirebooter-20260528015124187_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\pritn\AppData\Local\Temp\surefire2378964341964124454\surefirebooter-20260528122355436_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.10+7-LTS"/>
@@ -58,8 +58,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="verifyUnauthorizedApiRequestHandling" classname="tests.api.UnauthorizedApiTests" time="3.667">
-    <system-out><![CDATA[2026-05-27T20:21:25.785657600Z TestNG-test-AllParallelTests-2 ERROR Error parsing C:\Users\pritn\Desktop\VScode projects\Sprint\automation-framework\target\test-classes\log4j2.xml org.xml.sax.SAXParseException; systemId: file:///C:/Users/pritn/Desktop/VScode%20projects/Sprint/automation-framework/target/test-classes/log4j2.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+  <testcase name="verifyUnauthorizedApiRequestHandling" classname="tests.api.UnauthorizedApiTests" time="4.823">
+    <system-out><![CDATA[2026-05-28T06:53:58.510799Z TestNG-test-AllParallelTests-1 ERROR Error parsing C:\Users\pritn\Desktop\VScode projects\Sprint\automation-framework\target\test-classes\log4j2.xml org.xml.sax.SAXParseException; systemId: file:///C:/Users/pritn/Desktop/VScode%20projects/Sprint/automation-framework/target/test-classes/log4j2.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
 	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
 	at org.apache.logging.log4j.core.config.xml.XmlConfiguration.<init>(XmlConfiguration.java:92)
@@ -76,7 +76,7 @@
 	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:611)
 	at org.apache.poi.ooxml.POIXMLDocumentPart.<clinit>(POIXMLDocumentPart.java:56)
 	at utils.ExcelUtils.getSheetData(ExcelUtils.java:22)
-	at tests.ui.NotesUiTests.notesData(NotesUiTests.java:30)
+	at tests.ui.LoginTests.loginData(LoginTests.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -100,14 +100,14 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:840)
 
-2026-05-27T20:21:25.795077100Z TestNG-test-AllParallelTests-2 ERROR No logging configuration
+2026-05-28T06:53:58.510799Z TestNG-test-AllParallelTests-1 ERROR No logging configuration
 STATUS CODE:
-STATUS CODE:
-401
 200
 RESPONSE BODY:
-RESPONSE BODY:
 {"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
+STATUS CODE:
+401
+RESPONSE BODY:
 {"success":false,"status":401,"message":"No authentication token specified in x-auth-token header"}
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
@@ -116,7 +116,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 [Fatal Error] log4j2.xml:1:1: Premature end of file.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyNewlyCreatedNoteAppearsInstantly" classname="tests.api.NotesApiTests" time="2.483">
+  <testcase name="verifyNewlyCreatedNoteAppearsInstantly" classname="tests.api.NotesApiTests" time="1.567">
     <system-out><![CDATA[STATUS CODE:
 200
 RESPONSE:
@@ -126,283 +126,243 @@ RESPONSE:
     "message": "Notes successfully retrieved",
     "data": [
         {
-            "id": "6a17520551ccbd0297d37113",
+            "id": "6a17e5f151ccbd0297d3dc7d",
             "title": "@#$%^&*",
             "description": "Special chars test",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T20:20:21.737Z",
-            "updated_at": "2026-05-27T20:20:21.737Z",
+            "created_at": "2026-05-28T06:51:29.090Z",
+            "updated_at": "2026-05-28T06:51:29.090Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a1751ee51ccbd0297d370df",
-            "title": "Test123",
+            "id": "6a17e5c551ccbd0297d3dc43",
+            "title": "Test123_1779951043843",
             "description": "Note description",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T20:19:58.061Z",
-            "updated_at": "2026-05-27T20:19:58.061Z",
+            "created_at": "2026-05-28T06:50:45.851Z",
+            "updated_at": "2026-05-28T06:50:45.851Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a1751e351ccbd0297d370c3",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T20:19:47.104Z",
-            "updated_at": "2026-05-27T20:19:47.104Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a1751e251ccbd0297d370bb",
-            "title": "Hybrid Note",
+            "id": "6a17e58f51ccbd0297d3dbd8",
+            "title": "Hybrid_Note_1779950962085",
             "description": "Created from UI",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T20:19:46.597Z",
-            "updated_at": "2026-05-27T20:19:46.597Z",
+            "created_at": "2026-05-28T06:49:51.692Z",
+            "updated_at": "2026-05-28T06:49:51.692Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a174c8e51ccbd0297d36a70",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T19:57:02.301Z",
-            "updated_at": "2026-05-27T19:57:02.301Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a174c8251ccbd0297d36a33",
-            "title": "Automation Note",
+            "id": "6a17e58651ccbd0297d3dbc2",
+            "title": "Automation Note_1779950977705",
             "description": "Created using Selenium",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T19:56:50.827Z",
-            "updated_at": "2026-05-27T19:56:50.827Z",
+            "created_at": "2026-05-28T06:49:42.554Z",
+            "updated_at": "2026-05-28T06:49:42.554Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a174c8151ccbd0297d36a26",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T19:56:49.899Z",
-            "updated_at": "2026-05-27T19:56:49.899Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a1710be51ccbd0297d32693",
-            "title": "Test123",
+            "id": "6a17e45751ccbd0297d3da7d",
+            "title": "Test123_1779950677657",
             "description": "Note description",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:41:50.516Z",
-            "updated_at": "2026-05-27T15:41:50.516Z",
+            "created_at": "2026-05-28T06:44:39.659Z",
+            "updated_at": "2026-05-28T06:44:39.659Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a17106451ccbd0297d325fd",
-            "title": "Automation Note",
+            "id": "6a17e43f51ccbd0297d3da13",
+            "title": "Automation Note_1779950652412",
             "description": "Created using Selenium",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:40:20.860Z",
-            "updated_at": "2026-05-27T15:40:20.860Z",
+            "created_at": "2026-05-28T06:44:15.051Z",
+            "updated_at": "2026-05-28T06:44:15.051Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a17106451ccbd0297d325f5",
-            "title": "Hybrid Note",
+            "id": "6a17e43a51ccbd0297d3d9fd",
+            "title": "Hybrid_Note_1779950633171",
             "description": "Created from UI",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:40:20.126Z",
-            "updated_at": "2026-05-27T15:40:20.126Z",
+            "created_at": "2026-05-28T06:44:10.642Z",
+            "updated_at": "2026-05-28T06:44:10.642Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a170f3f51ccbd0297d323e4",
-            "title": "Test123",
+            "id": "6a179c7751ccbd0297d39434",
+            "title": "Test123_1779932277186",
             "description": "Note description",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:35:27.667Z",
-            "updated_at": "2026-05-27T15:35:27.667Z",
+            "created_at": "2026-05-28T01:37:59.054Z",
+            "updated_at": "2026-05-28T01:37:59.054Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a170ef751ccbd0297d3234b",
-            "title": "Hybrid Note",
+            "id": "6a179c0a51ccbd0297d393ed",
+            "title": "Hybrid_Note_1779932134102",
             "description": "Created from UI",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:34:15.868Z",
-            "updated_at": "2026-05-27T15:34:15.868Z",
+            "created_at": "2026-05-28T01:36:10.527Z",
+            "updated_at": "2026-05-28T01:36:10.527Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a170ef651ccbd0297d32343",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:34:14.986Z",
-            "updated_at": "2026-05-27T15:34:14.986Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a170d9551ccbd0297d320f9",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:28:21.046Z",
-            "updated_at": "2026-05-27T15:28:21.046Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a170d2e51ccbd0297d3205f",
-            "title": "Delete Hybrid Note",
+            "id": "6a179c0351ccbd0297d393df",
+            "title": "DeleteNote_1779932134113",
             "description": "Delete validation",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:26:38.903Z",
-            "updated_at": "2026-05-27T15:26:38.903Z",
+            "created_at": "2026-05-28T01:36:03.065Z",
+            "updated_at": "2026-05-28T01:36:03.065Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a170d2d51ccbd0297d32054",
-            "title": "Automation Note",
+            "id": "6a17998251ccbd0297d3939d",
+            "title": "Test123_1779931520052",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:25:22.064Z",
+            "updated_at": "2026-05-28T01:25:22.064Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17994251ccbd0297d3934d",
+            "title": "Automation Note_1779931453754",
             "description": "Created using Selenium",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:26:37.703Z",
-            "updated_at": "2026-05-27T15:26:37.703Z",
+            "created_at": "2026-05-28T01:24:18.028Z",
+            "updated_at": "2026-05-28T01:24:18.028Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a16e2e353916b0295ce0938",
+            "id": "6a17993d51ccbd0297d39341",
+            "title": "Hybrid_Note_1779931436551",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:24:13.372Z",
+            "updated_at": "2026-05-28T01:24:13.372Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17956551ccbd0297d392e5",
+            "title": "Test123_1779930468010",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:07:49.909Z",
+            "updated_at": "2026-05-28T01:07:49.909Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17951451ccbd0297d39295",
+            "title": "Automation Note_1779930385635",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:06:28.120Z",
+            "updated_at": "2026-05-28T01:06:28.120Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17951351ccbd0297d39290",
+            "title": "Hybrid_Note_1779930372257",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:06:27.191Z",
+            "updated_at": "2026-05-28T01:06:27.191Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17927551ccbd0297d39238",
+            "title": "DeleteNote_1779929671297",
+            "description": "Delete validation",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:55:17.360Z",
+            "updated_at": "2026-05-28T00:55:17.360Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17925751ccbd0297d39202",
+            "title": "Automation Note_1779929683558",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:54:47.142Z",
+            "updated_at": "2026-05-28T00:54:47.142Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17925651ccbd0297d391fb",
+            "title": "Hybrid_Note_1779929671287",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:54:46.071Z",
+            "updated_at": "2026-05-28T00:54:46.071Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178f3d51ccbd0297d39191",
+            "title": "Test123_1779928891490",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:41:33.274Z",
+            "updated_at": "2026-05-28T00:41:33.274Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178efe51ccbd0297d3913e",
+            "title": "Automation Note_1779928828006",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:40:30.225Z",
+            "updated_at": "2026-05-28T00:40:30.225Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178efd51ccbd0297d3913a",
+            "title": "Hybrid_Note_1779928818337",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:40:29.798Z",
+            "updated_at": "2026-05-28T00:40:29.798Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178ab751ccbd0297d39061",
+            "title": "Test123_1779927734112",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:22:15.846Z",
+            "updated_at": "2026-05-28T00:22:15.846Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a1785e351ccbd0297d38f4a",
             "title": "Test123",
             "description": "Note description",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T12:26:11.342Z",
-            "updated_at": "2026-05-27T12:26:11.342Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e2c753916b0295ce0891",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:25:43.777Z",
-            "updated_at": "2026-05-27T12:25:43.777Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0d953916b0295ce05b4",
-            "title": "@#$%^&*",
-            "description": "Special chars test",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:17:29.773Z",
-            "updated_at": "2026-05-27T12:17:29.773Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0be53916b0295ce055b",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:17:02.574Z",
-            "updated_at": "2026-05-27T12:17:02.574Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0ac53916b0295ce04fc",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:16:44.562Z",
-            "updated_at": "2026-05-27T12:16:44.562Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0ab53916b0295ce04f1",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:16:43.597Z",
-            "updated_at": "2026-05-27T12:16:43.597Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16df7b53916b0295ce038a",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:11:39.708Z",
-            "updated_at": "2026-05-27T12:11:39.708Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16df6e53916b0295ce0332",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:11:26.908Z",
-            "updated_at": "2026-05-27T12:11:26.908Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16df6e53916b0295ce032e",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:11:26.763Z",
-            "updated_at": "2026-05-27T12:11:26.763Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16dc8353916b0295cdfd7d",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T11:58:59.318Z",
-            "updated_at": "2026-05-27T11:58:59.318Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16dc6a53916b0295cdfd14",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T11:58:34.451Z",
-            "updated_at": "2026-05-27T11:58:34.451Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16dc6a53916b0295cdfd10",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T11:58:34.413Z",
-            "updated_at": "2026-05-27T11:58:34.413Z",
+            "created_at": "2026-05-28T00:01:39.398Z",
+            "updated_at": "2026-05-28T00:01:39.398Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
@@ -438,21 +398,21 @@ RESPONSE:
     ]
 }
 ]]></system-out>
-    <system-err><![CDATA[May 28, 2026 1:51:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 28, 2026 12:24:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 28, 2026 1:51:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 28, 2026 12:24:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 28, 2026 1:51:29 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 28, 2026 12:24:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:24:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 28, 2026 1:51:29 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 28, 2026 12:24:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 28, 2026 1:51:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 28, 2026 1:51:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 28, 2026 12:24:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyNoteVisibilityAfterRefresh" classname="tests.api.NotesApiTests" time="0.015">
+  <testcase name="verifyNoteVisibilityAfterRefresh" classname="tests.api.NotesApiTests" time="0.921">
     <system-out><![CDATA[STATUS CODE:
 200
 RESPONSE BODY:
@@ -466,283 +426,243 @@ RESPONSE:
     "message": "Notes successfully retrieved",
     "data": [
         {
-            "id": "6a17520551ccbd0297d37113",
+            "id": "6a17e5f151ccbd0297d3dc7d",
             "title": "@#$%^&*",
             "description": "Special chars test",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T20:20:21.737Z",
-            "updated_at": "2026-05-27T20:20:21.737Z",
+            "created_at": "2026-05-28T06:51:29.090Z",
+            "updated_at": "2026-05-28T06:51:29.090Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a1751ee51ccbd0297d370df",
-            "title": "Test123",
+            "id": "6a17e5c551ccbd0297d3dc43",
+            "title": "Test123_1779951043843",
             "description": "Note description",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T20:19:58.061Z",
-            "updated_at": "2026-05-27T20:19:58.061Z",
+            "created_at": "2026-05-28T06:50:45.851Z",
+            "updated_at": "2026-05-28T06:50:45.851Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a1751e351ccbd0297d370c3",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T20:19:47.104Z",
-            "updated_at": "2026-05-27T20:19:47.104Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a1751e251ccbd0297d370bb",
-            "title": "Hybrid Note",
+            "id": "6a17e58f51ccbd0297d3dbd8",
+            "title": "Hybrid_Note_1779950962085",
             "description": "Created from UI",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T20:19:46.597Z",
-            "updated_at": "2026-05-27T20:19:46.597Z",
+            "created_at": "2026-05-28T06:49:51.692Z",
+            "updated_at": "2026-05-28T06:49:51.692Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a174c8e51ccbd0297d36a70",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T19:57:02.301Z",
-            "updated_at": "2026-05-27T19:57:02.301Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a174c8251ccbd0297d36a33",
-            "title": "Automation Note",
+            "id": "6a17e58651ccbd0297d3dbc2",
+            "title": "Automation Note_1779950977705",
             "description": "Created using Selenium",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T19:56:50.827Z",
-            "updated_at": "2026-05-27T19:56:50.827Z",
+            "created_at": "2026-05-28T06:49:42.554Z",
+            "updated_at": "2026-05-28T06:49:42.554Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a174c8151ccbd0297d36a26",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T19:56:49.899Z",
-            "updated_at": "2026-05-27T19:56:49.899Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a1710be51ccbd0297d32693",
-            "title": "Test123",
+            "id": "6a17e45751ccbd0297d3da7d",
+            "title": "Test123_1779950677657",
             "description": "Note description",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:41:50.516Z",
-            "updated_at": "2026-05-27T15:41:50.516Z",
+            "created_at": "2026-05-28T06:44:39.659Z",
+            "updated_at": "2026-05-28T06:44:39.659Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a17106451ccbd0297d325fd",
-            "title": "Automation Note",
+            "id": "6a17e43f51ccbd0297d3da13",
+            "title": "Automation Note_1779950652412",
             "description": "Created using Selenium",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:40:20.860Z",
-            "updated_at": "2026-05-27T15:40:20.860Z",
+            "created_at": "2026-05-28T06:44:15.051Z",
+            "updated_at": "2026-05-28T06:44:15.051Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a17106451ccbd0297d325f5",
-            "title": "Hybrid Note",
+            "id": "6a17e43a51ccbd0297d3d9fd",
+            "title": "Hybrid_Note_1779950633171",
             "description": "Created from UI",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:40:20.126Z",
-            "updated_at": "2026-05-27T15:40:20.126Z",
+            "created_at": "2026-05-28T06:44:10.642Z",
+            "updated_at": "2026-05-28T06:44:10.642Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a170f3f51ccbd0297d323e4",
-            "title": "Test123",
+            "id": "6a179c7751ccbd0297d39434",
+            "title": "Test123_1779932277186",
             "description": "Note description",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:35:27.667Z",
-            "updated_at": "2026-05-27T15:35:27.667Z",
+            "created_at": "2026-05-28T01:37:59.054Z",
+            "updated_at": "2026-05-28T01:37:59.054Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a170ef751ccbd0297d3234b",
-            "title": "Hybrid Note",
+            "id": "6a179c0a51ccbd0297d393ed",
+            "title": "Hybrid_Note_1779932134102",
             "description": "Created from UI",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:34:15.868Z",
-            "updated_at": "2026-05-27T15:34:15.868Z",
+            "created_at": "2026-05-28T01:36:10.527Z",
+            "updated_at": "2026-05-28T01:36:10.527Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a170ef651ccbd0297d32343",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:34:14.986Z",
-            "updated_at": "2026-05-27T15:34:14.986Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a170d9551ccbd0297d320f9",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:28:21.046Z",
-            "updated_at": "2026-05-27T15:28:21.046Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a170d2e51ccbd0297d3205f",
-            "title": "Delete Hybrid Note",
+            "id": "6a179c0351ccbd0297d393df",
+            "title": "DeleteNote_1779932134113",
             "description": "Delete validation",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:26:38.903Z",
-            "updated_at": "2026-05-27T15:26:38.903Z",
+            "created_at": "2026-05-28T01:36:03.065Z",
+            "updated_at": "2026-05-28T01:36:03.065Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a170d2d51ccbd0297d32054",
-            "title": "Automation Note",
+            "id": "6a17998251ccbd0297d3939d",
+            "title": "Test123_1779931520052",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:25:22.064Z",
+            "updated_at": "2026-05-28T01:25:22.064Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17994251ccbd0297d3934d",
+            "title": "Automation Note_1779931453754",
             "description": "Created using Selenium",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:26:37.703Z",
-            "updated_at": "2026-05-27T15:26:37.703Z",
+            "created_at": "2026-05-28T01:24:18.028Z",
+            "updated_at": "2026-05-28T01:24:18.028Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a16e2e353916b0295ce0938",
+            "id": "6a17993d51ccbd0297d39341",
+            "title": "Hybrid_Note_1779931436551",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:24:13.372Z",
+            "updated_at": "2026-05-28T01:24:13.372Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17956551ccbd0297d392e5",
+            "title": "Test123_1779930468010",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:07:49.909Z",
+            "updated_at": "2026-05-28T01:07:49.909Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17951451ccbd0297d39295",
+            "title": "Automation Note_1779930385635",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:06:28.120Z",
+            "updated_at": "2026-05-28T01:06:28.120Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17951351ccbd0297d39290",
+            "title": "Hybrid_Note_1779930372257",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:06:27.191Z",
+            "updated_at": "2026-05-28T01:06:27.191Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17927551ccbd0297d39238",
+            "title": "DeleteNote_1779929671297",
+            "description": "Delete validation",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:55:17.360Z",
+            "updated_at": "2026-05-28T00:55:17.360Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17925751ccbd0297d39202",
+            "title": "Automation Note_1779929683558",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:54:47.142Z",
+            "updated_at": "2026-05-28T00:54:47.142Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17925651ccbd0297d391fb",
+            "title": "Hybrid_Note_1779929671287",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:54:46.071Z",
+            "updated_at": "2026-05-28T00:54:46.071Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178f3d51ccbd0297d39191",
+            "title": "Test123_1779928891490",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:41:33.274Z",
+            "updated_at": "2026-05-28T00:41:33.274Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178efe51ccbd0297d3913e",
+            "title": "Automation Note_1779928828006",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:40:30.225Z",
+            "updated_at": "2026-05-28T00:40:30.225Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178efd51ccbd0297d3913a",
+            "title": "Hybrid_Note_1779928818337",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:40:29.798Z",
+            "updated_at": "2026-05-28T00:40:29.798Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178ab751ccbd0297d39061",
+            "title": "Test123_1779927734112",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:22:15.846Z",
+            "updated_at": "2026-05-28T00:22:15.846Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a1785e351ccbd0297d38f4a",
             "title": "Test123",
             "description": "Note description",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T12:26:11.342Z",
-            "updated_at": "2026-05-27T12:26:11.342Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e2c753916b0295ce0891",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:25:43.777Z",
-            "updated_at": "2026-05-27T12:25:43.777Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0d953916b0295ce05b4",
-            "title": "@#$%^&*",
-            "description": "Special chars test",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:17:29.773Z",
-            "updated_at": "2026-05-27T12:17:29.773Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0be53916b0295ce055b",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:17:02.574Z",
-            "updated_at": "2026-05-27T12:17:02.574Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0ac53916b0295ce04fc",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:16:44.562Z",
-            "updated_at": "2026-05-27T12:16:44.562Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0ab53916b0295ce04f1",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:16:43.597Z",
-            "updated_at": "2026-05-27T12:16:43.597Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16df7b53916b0295ce038a",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:11:39.708Z",
-            "updated_at": "2026-05-27T12:11:39.708Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16df6e53916b0295ce0332",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:11:26.908Z",
-            "updated_at": "2026-05-27T12:11:26.908Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16df6e53916b0295ce032e",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:11:26.763Z",
-            "updated_at": "2026-05-27T12:11:26.763Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16dc8353916b0295cdfd7d",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T11:58:59.318Z",
-            "updated_at": "2026-05-27T11:58:59.318Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16dc6a53916b0295cdfd14",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T11:58:34.451Z",
-            "updated_at": "2026-05-27T11:58:34.451Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16dc6a53916b0295cdfd10",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T11:58:34.413Z",
-            "updated_at": "2026-05-27T11:58:34.413Z",
+            "created_at": "2026-05-28T00:01:39.398Z",
+            "updated_at": "2026-05-28T00:01:39.398Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
@@ -779,7 +699,7 @@ RESPONSE:
 }
 ]]></system-out>
   </testcase>
-  <testcase name="verifyLogin[testuser1+1@gmail.com, user1A@x, valid](1)" classname="tests.ui.LoginTests" time="1.425">
+  <testcase name="verifySuccessfulNoteDeletion" classname="tests.api.NotesDeleteApiTests" time="5.586">
     <system-out><![CDATA[STATUS CODE:
 200
 RESPONSE BODY:
@@ -790,283 +710,243 @@ RESPONSE BODY:
     "message": "Notes successfully retrieved",
     "data": [
         {
-            "id": "6a17520551ccbd0297d37113",
+            "id": "6a17e5f151ccbd0297d3dc7d",
             "title": "@#$%^&*",
             "description": "Special chars test",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T20:20:21.737Z",
-            "updated_at": "2026-05-27T20:20:21.737Z",
+            "created_at": "2026-05-28T06:51:29.090Z",
+            "updated_at": "2026-05-28T06:51:29.090Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a1751ee51ccbd0297d370df",
-            "title": "Test123",
+            "id": "6a17e5c551ccbd0297d3dc43",
+            "title": "Test123_1779951043843",
             "description": "Note description",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T20:19:58.061Z",
-            "updated_at": "2026-05-27T20:19:58.061Z",
+            "created_at": "2026-05-28T06:50:45.851Z",
+            "updated_at": "2026-05-28T06:50:45.851Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a1751e351ccbd0297d370c3",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T20:19:47.104Z",
-            "updated_at": "2026-05-27T20:19:47.104Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a1751e251ccbd0297d370bb",
-            "title": "Hybrid Note",
+            "id": "6a17e58f51ccbd0297d3dbd8",
+            "title": "Hybrid_Note_1779950962085",
             "description": "Created from UI",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T20:19:46.597Z",
-            "updated_at": "2026-05-27T20:19:46.597Z",
+            "created_at": "2026-05-28T06:49:51.692Z",
+            "updated_at": "2026-05-28T06:49:51.692Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a174c8e51ccbd0297d36a70",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T19:57:02.301Z",
-            "updated_at": "2026-05-27T19:57:02.301Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a174c8251ccbd0297d36a33",
-            "title": "Automation Note",
+            "id": "6a17e58651ccbd0297d3dbc2",
+            "title": "Automation Note_1779950977705",
             "description": "Created using Selenium",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T19:56:50.827Z",
-            "updated_at": "2026-05-27T19:56:50.827Z",
+            "created_at": "2026-05-28T06:49:42.554Z",
+            "updated_at": "2026-05-28T06:49:42.554Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a174c8151ccbd0297d36a26",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T19:56:49.899Z",
-            "updated_at": "2026-05-27T19:56:49.899Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a1710be51ccbd0297d32693",
-            "title": "Test123",
+            "id": "6a17e45751ccbd0297d3da7d",
+            "title": "Test123_1779950677657",
             "description": "Note description",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:41:50.516Z",
-            "updated_at": "2026-05-27T15:41:50.516Z",
+            "created_at": "2026-05-28T06:44:39.659Z",
+            "updated_at": "2026-05-28T06:44:39.659Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a17106451ccbd0297d325fd",
-            "title": "Automation Note",
+            "id": "6a17e43f51ccbd0297d3da13",
+            "title": "Automation Note_1779950652412",
             "description": "Created using Selenium",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:40:20.860Z",
-            "updated_at": "2026-05-27T15:40:20.860Z",
+            "created_at": "2026-05-28T06:44:15.051Z",
+            "updated_at": "2026-05-28T06:44:15.051Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a17106451ccbd0297d325f5",
-            "title": "Hybrid Note",
+            "id": "6a17e43a51ccbd0297d3d9fd",
+            "title": "Hybrid_Note_1779950633171",
             "description": "Created from UI",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:40:20.126Z",
-            "updated_at": "2026-05-27T15:40:20.126Z",
+            "created_at": "2026-05-28T06:44:10.642Z",
+            "updated_at": "2026-05-28T06:44:10.642Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a170f3f51ccbd0297d323e4",
-            "title": "Test123",
+            "id": "6a179c7751ccbd0297d39434",
+            "title": "Test123_1779932277186",
             "description": "Note description",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:35:27.667Z",
-            "updated_at": "2026-05-27T15:35:27.667Z",
+            "created_at": "2026-05-28T01:37:59.054Z",
+            "updated_at": "2026-05-28T01:37:59.054Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a170ef751ccbd0297d3234b",
-            "title": "Hybrid Note",
+            "id": "6a179c0a51ccbd0297d393ed",
+            "title": "Hybrid_Note_1779932134102",
             "description": "Created from UI",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:34:15.868Z",
-            "updated_at": "2026-05-27T15:34:15.868Z",
+            "created_at": "2026-05-28T01:36:10.527Z",
+            "updated_at": "2026-05-28T01:36:10.527Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a170ef651ccbd0297d32343",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:34:14.986Z",
-            "updated_at": "2026-05-27T15:34:14.986Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a170d9551ccbd0297d320f9",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:28:21.046Z",
-            "updated_at": "2026-05-27T15:28:21.046Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a170d2e51ccbd0297d3205f",
-            "title": "Delete Hybrid Note",
+            "id": "6a179c0351ccbd0297d393df",
+            "title": "DeleteNote_1779932134113",
             "description": "Delete validation",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:26:38.903Z",
-            "updated_at": "2026-05-27T15:26:38.903Z",
+            "created_at": "2026-05-28T01:36:03.065Z",
+            "updated_at": "2026-05-28T01:36:03.065Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a170d2d51ccbd0297d32054",
-            "title": "Automation Note",
+            "id": "6a17998251ccbd0297d3939d",
+            "title": "Test123_1779931520052",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:25:22.064Z",
+            "updated_at": "2026-05-28T01:25:22.064Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17994251ccbd0297d3934d",
+            "title": "Automation Note_1779931453754",
             "description": "Created using Selenium",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T15:26:37.703Z",
-            "updated_at": "2026-05-27T15:26:37.703Z",
+            "created_at": "2026-05-28T01:24:18.028Z",
+            "updated_at": "2026-05-28T01:24:18.028Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
-            "id": "6a16e2e353916b0295ce0938",
+            "id": "6a17993d51ccbd0297d39341",
+            "title": "Hybrid_Note_1779931436551",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:24:13.372Z",
+            "updated_at": "2026-05-28T01:24:13.372Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17956551ccbd0297d392e5",
+            "title": "Test123_1779930468010",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:07:49.909Z",
+            "updated_at": "2026-05-28T01:07:49.909Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17951451ccbd0297d39295",
+            "title": "Automation Note_1779930385635",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:06:28.120Z",
+            "updated_at": "2026-05-28T01:06:28.120Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17951351ccbd0297d39290",
+            "title": "Hybrid_Note_1779930372257",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:06:27.191Z",
+            "updated_at": "2026-05-28T01:06:27.191Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17927551ccbd0297d39238",
+            "title": "DeleteNote_1779929671297",
+            "description": "Delete validation",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:55:17.360Z",
+            "updated_at": "2026-05-28T00:55:17.360Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17925751ccbd0297d39202",
+            "title": "Automation Note_1779929683558",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:54:47.142Z",
+            "updated_at": "2026-05-28T00:54:47.142Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17925651ccbd0297d391fb",
+            "title": "Hybrid_Note_1779929671287",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:54:46.071Z",
+            "updated_at": "2026-05-28T00:54:46.071Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178f3d51ccbd0297d39191",
+            "title": "Test123_1779928891490",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:41:33.274Z",
+            "updated_at": "2026-05-28T00:41:33.274Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178efe51ccbd0297d3913e",
+            "title": "Automation Note_1779928828006",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:40:30.225Z",
+            "updated_at": "2026-05-28T00:40:30.225Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178efd51ccbd0297d3913a",
+            "title": "Hybrid_Note_1779928818337",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:40:29.798Z",
+            "updated_at": "2026-05-28T00:40:29.798Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178ab751ccbd0297d39061",
+            "title": "Test123_1779927734112",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:22:15.846Z",
+            "updated_at": "2026-05-28T00:22:15.846Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a1785e351ccbd0297d38f4a",
             "title": "Test123",
             "description": "Note description",
             "category": "Home",
             "completed": false,
-            "created_at": "2026-05-27T12:26:11.342Z",
-            "updated_at": "2026-05-27T12:26:11.342Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e2c753916b0295ce0891",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:25:43.777Z",
-            "updated_at": "2026-05-27T12:25:43.777Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0d953916b0295ce05b4",
-            "title": "@#$%^&*",
-            "description": "Special chars test",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:17:29.773Z",
-            "updated_at": "2026-05-27T12:17:29.773Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0be53916b0295ce055b",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:17:02.574Z",
-            "updated_at": "2026-05-27T12:17:02.574Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0ac53916b0295ce04fc",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:16:44.562Z",
-            "updated_at": "2026-05-27T12:16:44.562Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0ab53916b0295ce04f1",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:16:43.597Z",
-            "updated_at": "2026-05-27T12:16:43.597Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16df7b53916b0295ce038a",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:11:39.708Z",
-            "updated_at": "2026-05-27T12:11:39.708Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16df6e53916b0295ce0332",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:11:26.908Z",
-            "updated_at": "2026-05-27T12:11:26.908Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16df6e53916b0295ce032e",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:11:26.763Z",
-            "updated_at": "2026-05-27T12:11:26.763Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16dc8353916b0295cdfd7d",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T11:58:59.318Z",
-            "updated_at": "2026-05-27T11:58:59.318Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16dc6a53916b0295cdfd14",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T11:58:34.451Z",
-            "updated_at": "2026-05-27T11:58:34.451Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16dc6a53916b0295cdfd10",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T11:58:34.413Z",
-            "updated_at": "2026-05-27T11:58:34.413Z",
+            "created_at": "2026-05-28T00:01:39.398Z",
+            "updated_at": "2026-05-28T00:01:39.398Z",
             "user_id": "6a117227038935029662fbfe"
         },
         {
@@ -1101,70 +981,341 @@ RESPONSE BODY:
         }
     ]
 }
-]]></system-out>
-  </testcase>
-  <testcase name="verifyLogin[wrong@gmail.com, wrongpassword, invalid](2)" classname="tests.ui.LoginTests" time="0.333">
-    <system-err><![CDATA[May 28, 2026 1:51:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 28, 2026 1:51:38 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 28, 2026 1:51:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 28, 2026 1:51:39 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="verifyLogin[, , empty](3)" classname="tests.ui.LoginTests" time="0.31">
-    <system-out><![CDATA[STATUS CODE:
-200
-RESPONSE BODY:
-{"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
-Request 1 Status Code: 200
 STATUS CODE:
 200
 RESPONSE BODY:
 {"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
-Request 2 Status Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="verifySuccessfulNoteDeletion" classname="tests.api.NotesDeleteApiTests" time="2.33">
+  <testcase name="verifyInvalidNoteIdDeletion" classname="tests.api.NotesDeleteApiTests" time="2.678">
     <system-out><![CDATA[STATUS CODE:
-200
-RESPONSE BODY:
-{"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
-]]></system-out>
-  </testcase>
-  <testcase name="verifyInvalidNoteIdDeletion" classname="tests.api.NotesDeleteApiTests" time="1.266">
-    <system-out><![CDATA[STATUS CODE:
-200
-RESPONSE BODY:
-{"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
-STATUS CODE:
 200
 RESPONSE BODY:
 {"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
 {"success":false,"status":400,"message":"Note ID must be a valid ID"}
 ]]></system-out>
-    <system-err><![CDATA[May 28, 2026 1:51:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 28, 2026 1:51:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="verifyUiCreatedNoteInApi" classname="tests.e2e.NotesHybridTests" time="1.509">
-    <system-out><![CDATA[{"success":true,"status":200,"message":"Notes successfully retrieved","data":[{"id":"6a17525051ccbd0297d3716d","title":"Hybrid Note","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-27T20:21:36.012Z","updated_at":"2026-05-27T20:21:36.012Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17524f51ccbd0297d37166","title":"Automation Note","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-27T20:21:35.629Z","updated_at":"2026-05-27T20:21:35.629Z","user_id":"6a117227038935029662fbfe"},{"id":"6a1751ee51ccbd0297d370df","title":"Test123","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-27T20:19:58.061Z","updated_at":"2026-05-27T20:19:58.061Z","user_id":"6a117227038935029662fbfe"},{"id":"6a1751e351ccbd0297d370c3","title":"Automation Note","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-27T20:19:47.104Z","updated_at":"2026-05-27T20:19:47.104Z","user_id":"6a117227038935029662fbfe"},{"id":"6a1751e251ccbd0297d370bb","title":"Hybrid Note","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-27T20:19:46.597Z","updated_at":"2026-05-27T20:19:46.597Z","user_id":"6a117227038935029662fbfe"},{"id":"6a174c8e51ccbd0297d36a70","title":"Test123","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-27T19:57:02.301Z","updated_at":"2026-05-27T19:57:02.301Z","user_id":"6a117227038935029662fbfe"},{"id":"6a174c8251ccbd0297d36a33","title":"Automation Note","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-27T19:56:50.827Z","updated_at":"2026-05-27T19:56:50.827Z","user_id":"6a117227038935029662fbfe"},{"id":"6a174c8151ccbd0297d36a26","title":"Hybrid Note","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-27T19:56:49.899Z","updated_at":"2026-05-27T19:56:49.899Z","user_id":"6a117227038935029662fbfe"},{"id":"6a1710be51ccbd0297d32693","title":"Test123","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-27T15:41:50.516Z","updated_at":"2026-05-27T15:41:50.516Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17106451ccbd0297d325fd","title":"Automation Note","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-27T15:40:20.860Z","updated_at":"2026-05-27T15:40:20.860Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17106451ccbd0297d325f5","title":"Hybrid Note","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-27T15:40:20.126Z","updated_at":"2026-05-27T15:40:20.126Z","user_id":"6a117227038935029662fbfe"},{"id":"6a170f3f51ccbd0297d323e4","title":"Test123","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-27T15:35:27.667Z","updated_at":"2026-05-27T15:35:27.667Z","user_id":"6a117227038935029662fbfe"},{"id":"6a170ef751ccbd0297d3234b","title":"Hybrid Note","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-27T15:34:15.868Z","updated_at":"2026-05-27T15:34:15.868Z","user_id":"6a117227038935029662fbfe"},{"id":"6a170ef651ccbd0297d32343","title":"Automation Note","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-27T15:34:14.986Z","updated_at":"2026-05-27T15:34:14.986Z","user_id":"6a117227038935029662fbfe"},{"id":"6a170d9551ccbd0297d320f9","title":"Test123","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-27T15:28:21.046Z","updated_at":"2026-05-27T15:28:21.046Z","user_id":"6a117227038935029662fbfe"},{"id":"6a170d2e51ccbd0297d3205f","title":"Delete Hybrid Note","description":"Delete validation","category":"Home","completed":false,"created_at":"2026-05-27T15:26:38.903Z","updated_at":"2026-05-27T15:26:38.903Z","user_id":"6a117227038935029662fbfe"},{"id":"6a170d2d51ccbd0297d32054","title":"Automation Note","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-27T15:26:37.703Z","updated_at":"2026-05-27T15:26:37.703Z","user_id":"6a117227038935029662fbfe"},{"id":"6a16e2e353916b0295ce0938","title":"Test123","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-27T12:26:11.342Z","updated_at":"2026-05-27T12:26:11.342Z","user_id":"6a117227038935029662fbfe"},{"id":"6a16e2c753916b0295ce0891","title":"Hybrid Note","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-27T12:25:43.777Z","updated_at":"2026-05-27T12:25:43.777Z","user_id":"6a117227038935029662fbfe"},{"id":"6a16e0d953916b0295ce05b4","title":"@#$%^&*","description":"Special chars test","category":"Home","completed":false,"created_at":"2026-05-27T12:17:29.773Z","updated_at":"2026-05-27T12:17:29.773Z","user_id":"6a117227038935029662fbfe"},{"id":"6a16e0be53916b0295ce055b","title":"Test123","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-27T12:17:02.574Z","updated_at":"2026-05-27T12:17:02.574Z","user_id":"6a117227038935029662fbfe"},{"id":"6a16e0ac53916b0295ce04fc","title":"Hybrid Note","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-27T12:16:44.562Z","updated_at":"2026-05-27T12:16:44.562Z","user_id":"6a117227038935029662fbfe"},{"id":"6a16e0ab53916b0295ce04f1","title":"Automation Note","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-27T12:16:43.597Z","updated_at":"2026-05-27T12:16:43.597Z","user_id":"6a117227038935029662fbfe"},{"id":"6a16df7b53916b0295ce038a","title":"Test123","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-27T12:11:39.708Z","updated_at":"2026-05-27T12:11:39.708Z","user_id":"6a117227038935029662fbfe"},{"id":"6a16df6e53916b0295ce0332","title":"Automation Note","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-27T12:11:26.908Z","updated_at":"2026-05-27T12:11:26.908Z","user_id":"6a117227038935029662fbfe"},{"id":"6a16df6e53916b0295ce032e","title":"Hybrid Note","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-27T12:11:26.763Z","updated_at":"2026-05-27T12:11:26.763Z","user_id":"6a117227038935029662fbfe"},{"id":"6a16dc8353916b0295cdfd7d","title":"Test123","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-27T11:58:59.318Z","updated_at":"2026-05-27T11:58:59.318Z","user_id":"6a117227038935029662fbfe"},{"id":"6a16dc6a53916b0295cdfd14","title":"Hybrid Note","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-27T11:58:34.451Z","updated_at":"2026-05-27T11:58:34.451Z","user_id":"6a117227038935029662fbfe"},{"id":"6a16dc6a53916b0295cdfd10","title":"Automation Note","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-27T11:58:34.413Z","updated_at":"2026-05-27T11:58:34.413Z","user_id":"6a117227038935029662fbfe"},{"id":"6a1551ea53916b0295cce773","title":"Automation Note","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-26T07:55:22.481Z","updated_at":"2026-05-26T07:55:22.481Z","user_id":"6a117227038935029662fbfe"},{"id":"6a140215038935029664bff7","title":"@#$%^&*","description":"Special chars test","category":"Home","completed":true,"created_at":"2026-05-25T08:02:29.783Z","updated_at":"2026-05-25T09:06:25.803Z","user_id":"6a117227038935029662fbfe"},{"id":"6a12ca44038935029663991b","title":"books","description":"reading rich dad poor dad","category":"Home","completed":false,"created_at":"2026-05-24T09:52:04.157Z","updated_at":"2026-05-24T09:52:04.157Z","user_id":"6a117227038935029662fbfe"}]}
-]]></system-out>
-  </testcase>
-  <testcase name="verifyFieldMatchingAndNoteIdConsistency" classname="tests.e2e.NotesHybridTests" time="1.222"/>
-  <testcase name="verifyNoteCreation[Automation Note, Created using Selenium, valid](1)" classname="tests.ui.NotesUiTests" time="0.91">
+  <testcase name="verifyLogin[testuser1+1@gmail.com, user1A@x, valid](1)" classname="tests.ui.LoginTests" time="4.148"/>
+  <testcase name="verifyLogin[wrong@gmail.com, wrongpassword, invalid](2)" classname="tests.ui.LoginTests" time="0.62">
     <system-out><![CDATA[STATUS CODE:
 200
 RESPONSE BODY:
 {"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
+{
+    "success": true,
+    "status": 200,
+    "message": "Notes successfully retrieved",
+    "data": [
+        {
+            "id": "6a17e6a451ccbd0297d3de5c",
+            "title": "DeleteNote_1779951237420",
+            "description": "Delete validation",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T06:54:28.371Z",
+            "updated_at": "2026-05-28T06:54:28.371Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17e6a051ccbd0297d3de4c",
+            "title": "Automation Note_1779951262884",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T06:54:24.956Z",
+            "updated_at": "2026-05-28T06:54:24.956Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17e6a051ccbd0297d3de48",
+            "title": "Hybrid_Note_1779951237405",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T06:54:24.920Z",
+            "updated_at": "2026-05-28T06:54:24.920Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17e5c551ccbd0297d3dc43",
+            "title": "Test123_1779951043843",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T06:50:45.851Z",
+            "updated_at": "2026-05-28T06:50:45.851Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17e58f51ccbd0297d3dbd8",
+            "title": "Hybrid_Note_1779950962085",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T06:49:51.692Z",
+            "updated_at": "2026-05-28T06:49:51.692Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17e58651ccbd0297d3dbc2",
+            "title": "Automation Note_1779950977705",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T06:49:42.554Z",
+            "updated_at": "2026-05-28T06:49:42.554Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17e45751ccbd0297d3da7d",
+            "title": "Test123_1779950677657",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T06:44:39.659Z",
+            "updated_at": "2026-05-28T06:44:39.659Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17e43f51ccbd0297d3da13",
+            "title": "Automation Note_1779950652412",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T06:44:15.051Z",
+            "updated_at": "2026-05-28T06:44:15.051Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17e43a51ccbd0297d3d9fd",
+            "title": "Hybrid_Note_1779950633171",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T06:44:10.642Z",
+            "updated_at": "2026-05-28T06:44:10.642Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a179c7751ccbd0297d39434",
+            "title": "Test123_1779932277186",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:37:59.054Z",
+            "updated_at": "2026-05-28T01:37:59.054Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a179c0a51ccbd0297d393ed",
+            "title": "Hybrid_Note_1779932134102",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:36:10.527Z",
+            "updated_at": "2026-05-28T01:36:10.527Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a179c0351ccbd0297d393df",
+            "title": "DeleteNote_1779932134113",
+            "description": "Delete validation",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:36:03.065Z",
+            "updated_at": "2026-05-28T01:36:03.065Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17998251ccbd0297d3939d",
+            "title": "Test123_1779931520052",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:25:22.064Z",
+            "updated_at": "2026-05-28T01:25:22.064Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17994251ccbd0297d3934d",
+            "title": "Automation Note_1779931453754",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:24:18.028Z",
+            "updated_at": "2026-05-28T01:24:18.028Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17993d51ccbd0297d39341",
+            "title": "Hybrid_Note_1779931436551",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:24:13.372Z",
+            "updated_at": "2026-05-28T01:24:13.372Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17956551ccbd0297d392e5",
+            "title": "Test123_1779930468010",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:07:49.909Z",
+            "updated_at": "2026-05-28T01:07:49.909Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17951451ccbd0297d39295",
+            "title": "Automation Note_1779930385635",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:06:28.120Z",
+            "updated_at": "2026-05-28T01:06:28.120Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17951351ccbd0297d39290",
+            "title": "Hybrid_Note_1779930372257",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T01:06:27.191Z",
+            "updated_at": "2026-05-28T01:06:27.191Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17927551ccbd0297d39238",
+            "title": "DeleteNote_1779929671297",
+            "description": "Delete validation",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:55:17.360Z",
+            "updated_at": "2026-05-28T00:55:17.360Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17925751ccbd0297d39202",
+            "title": "Automation Note_1779929683558",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:54:47.142Z",
+            "updated_at": "2026-05-28T00:54:47.142Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a17925651ccbd0297d391fb",
+            "title": "Hybrid_Note_1779929671287",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:54:46.071Z",
+            "updated_at": "2026-05-28T00:54:46.071Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178f3d51ccbd0297d39191",
+            "title": "Test123_1779928891490",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:41:33.274Z",
+            "updated_at": "2026-05-28T00:41:33.274Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178efe51ccbd0297d3913e",
+            "title": "Automation Note_1779928828006",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:40:30.225Z",
+            "updated_at": "2026-05-28T00:40:30.225Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178efd51ccbd0297d3913a",
+            "title": "Hybrid_Note_1779928818337",
+            "description": "Created from UI",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:40:29.798Z",
+            "updated_at": "2026-05-28T00:40:29.798Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a178ab751ccbd0297d39061",
+            "title": "Test123_1779927734112",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:22:15.846Z",
+            "updated_at": "2026-05-28T00:22:15.846Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a1785e351ccbd0297d38f4a",
+            "title": "Test123",
+            "description": "Note description",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-28T00:01:39.398Z",
+            "updated_at": "2026-05-28T00:01:39.398Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a1551ea53916b0295cce773",
+            "title": "Automation Note",
+            "description": "Created using Selenium",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-26T07:55:22.481Z",
+            "updated_at": "2026-05-26T07:55:22.481Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a140215038935029664bff7",
+            "title": "@#$%^&*",
+            "description": "Special chars test",
+            "category": "Home",
+            "completed": true,
+            "created_at": "2026-05-25T08:02:29.783Z",
+            "updated_at": "2026-05-25T09:06:25.803Z",
+            "user_id": "6a117227038935029662fbfe"
+        },
+        {
+            "id": "6a12ca44038935029663991b",
+            "title": "books",
+            "description": "reading rich dad poor dad",
+            "category": "Home",
+            "completed": false,
+            "created_at": "2026-05-24T09:52:04.157Z",
+            "updated_at": "2026-05-24T09:52:04.157Z",
+            "user_id": "6a117227038935029662fbfe"
+        }
+    ]
+}
+STATUS CODE:
+200
+RESPONSE BODY:
+{"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
 ]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:24:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:24:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
   </testcase>
-  <testcase name="verifyNoteCreation[Test123, Note description, valid](2)" classname="tests.ui.NotesUiTests" time="4.109">
+  <testcase name="verifyLogin[, , empty](3)" classname="tests.ui.LoginTests" time="0.792">
     <system-out><![CDATA[STATUS CODE:
+200
+RESPONSE BODY:
+{"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
+Request 2 Status Code: 200
+STATUS CODE:
 200
 RESPONSE BODY:
 {"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
@@ -1173,7 +1324,43 @@ STATUS CODE:
 200
 RESPONSE BODY:
 {"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
-Request 4 Status Code: 200
+]]></system-out>
+  </testcase>
+  <testcase name="verifyUiCreatedNoteInApi" classname="tests.e2e.NotesHybridTests" time="4.364">
+    <system-out><![CDATA[STATUS CODE:
+200
+RESPONSE BODY:
+{"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
+{"success":true,"status":200,"message":"Notes successfully retrieved","data":[{"id":"6a17e6a451ccbd0297d3de5c","title":"DeleteNote_1779951237420","description":"Delete validation","category":"Home","completed":false,"created_at":"2026-05-28T06:54:28.371Z","updated_at":"2026-05-28T06:54:28.371Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17e6a051ccbd0297d3de4c","title":"Automation Note_1779951262884","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-28T06:54:24.956Z","updated_at":"2026-05-28T06:54:24.956Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17e6a051ccbd0297d3de48","title":"Hybrid_Note_1779951237405","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-28T06:54:24.920Z","updated_at":"2026-05-28T06:54:24.920Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17e5c551ccbd0297d3dc43","title":"Test123_1779951043843","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-28T06:50:45.851Z","updated_at":"2026-05-28T06:50:45.851Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17e58f51ccbd0297d3dbd8","title":"Hybrid_Note_1779950962085","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-28T06:49:51.692Z","updated_at":"2026-05-28T06:49:51.692Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17e58651ccbd0297d3dbc2","title":"Automation Note_1779950977705","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-28T06:49:42.554Z","updated_at":"2026-05-28T06:49:42.554Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17e45751ccbd0297d3da7d","title":"Test123_1779950677657","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-28T06:44:39.659Z","updated_at":"2026-05-28T06:44:39.659Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17e43f51ccbd0297d3da13","title":"Automation Note_1779950652412","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-28T06:44:15.051Z","updated_at":"2026-05-28T06:44:15.051Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17e43a51ccbd0297d3d9fd","title":"Hybrid_Note_1779950633171","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-28T06:44:10.642Z","updated_at":"2026-05-28T06:44:10.642Z","user_id":"6a117227038935029662fbfe"},{"id":"6a179c7751ccbd0297d39434","title":"Test123_1779932277186","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-28T01:37:59.054Z","updated_at":"2026-05-28T01:37:59.054Z","user_id":"6a117227038935029662fbfe"},{"id":"6a179c0a51ccbd0297d393ed","title":"Hybrid_Note_1779932134102","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-28T01:36:10.527Z","updated_at":"2026-05-28T01:36:10.527Z","user_id":"6a117227038935029662fbfe"},{"id":"6a179c0351ccbd0297d393df","title":"DeleteNote_1779932134113","description":"Delete validation","category":"Home","completed":false,"created_at":"2026-05-28T01:36:03.065Z","updated_at":"2026-05-28T01:36:03.065Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17998251ccbd0297d3939d","title":"Test123_1779931520052","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-28T01:25:22.064Z","updated_at":"2026-05-28T01:25:22.064Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17994251ccbd0297d3934d","title":"Automation Note_1779931453754","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-28T01:24:18.028Z","updated_at":"2026-05-28T01:24:18.028Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17993d51ccbd0297d39341","title":"Hybrid_Note_1779931436551","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-28T01:24:13.372Z","updated_at":"2026-05-28T01:24:13.372Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17956551ccbd0297d392e5","title":"Test123_1779930468010","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-28T01:07:49.909Z","updated_at":"2026-05-28T01:07:49.909Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17951451ccbd0297d39295","title":"Automation Note_1779930385635","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-28T01:06:28.120Z","updated_at":"2026-05-28T01:06:28.120Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17951351ccbd0297d39290","title":"Hybrid_Note_1779930372257","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-28T01:06:27.191Z","updated_at":"2026-05-28T01:06:27.191Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17927551ccbd0297d39238","title":"DeleteNote_1779929671297","description":"Delete validation","category":"Home","completed":false,"created_at":"2026-05-28T00:55:17.360Z","updated_at":"2026-05-28T00:55:17.360Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17925751ccbd0297d39202","title":"Automation Note_1779929683558","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-28T00:54:47.142Z","updated_at":"2026-05-28T00:54:47.142Z","user_id":"6a117227038935029662fbfe"},{"id":"6a17925651ccbd0297d391fb","title":"Hybrid_Note_1779929671287","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-28T00:54:46.071Z","updated_at":"2026-05-28T00:54:46.071Z","user_id":"6a117227038935029662fbfe"},{"id":"6a178f3d51ccbd0297d39191","title":"Test123_1779928891490","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-28T00:41:33.274Z","updated_at":"2026-05-28T00:41:33.274Z","user_id":"6a117227038935029662fbfe"},{"id":"6a178efe51ccbd0297d3913e","title":"Automation Note_1779928828006","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-28T00:40:30.225Z","updated_at":"2026-05-28T00:40:30.225Z","user_id":"6a117227038935029662fbfe"},{"id":"6a178efd51ccbd0297d3913a","title":"Hybrid_Note_1779928818337","description":"Created from UI","category":"Home","completed":false,"created_at":"2026-05-28T00:40:29.798Z","updated_at":"2026-05-28T00:40:29.798Z","user_id":"6a117227038935029662fbfe"},{"id":"6a178ab751ccbd0297d39061","title":"Test123_1779927734112","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-28T00:22:15.846Z","updated_at":"2026-05-28T00:22:15.846Z","user_id":"6a117227038935029662fbfe"},{"id":"6a1785e351ccbd0297d38f4a","title":"Test123","description":"Note description","category":"Home","completed":false,"created_at":"2026-05-28T00:01:39.398Z","updated_at":"2026-05-28T00:01:39.398Z","user_id":"6a117227038935029662fbfe"},{"id":"6a1551ea53916b0295cce773","title":"Automation Note","description":"Created using Selenium","category":"Home","completed":false,"created_at":"2026-05-26T07:55:22.481Z","updated_at":"2026-05-26T07:55:22.481Z","user_id":"6a117227038935029662fbfe"},{"id":"6a140215038935029664bff7","title":"@#$%^&*","description":"Special chars test","category":"Home","completed":true,"created_at":"2026-05-25T08:02:29.783Z","updated_at":"2026-05-25T09:06:25.803Z","user_id":"6a117227038935029662fbfe"},{"id":"6a12ca44038935029663991b","title":"books","description":"reading rich dad poor dad","category":"Home","completed":false,"created_at":"2026-05-24T09:52:04.157Z","updated_at":"2026-05-24T09:52:04.157Z","user_id":"6a117227038935029662fbfe"}]}
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:24:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:24:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCreatedNoteStillExistsInApi" classname="tests.e2e.NotesHybridTests" time="3.327">
+    <system-out><![CDATA[STATUS CODE:
+200
+RESPONSE BODY:
+{"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
+]]></system-out>
+  </testcase>
+  <testcase name="verifyApiResponseTime" classname="tests.api.NotesPerformanceApiTests" time="1.191">
+    <system-out><![CDATA[STATUS CODE:
+200
+RESPONSE BODY:
+{"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
+Actual API Response Time: 396 ms
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:24:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:24:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyApiStabilityDuringMultipleRequests" classname="tests.api.NotesPerformanceApiTests" time="5.97">
+    <system-out><![CDATA[Request 4 Status Code: 200
 STATUS CODE:
 200
 RESPONSE BODY:
@@ -1183,398 +1370,7 @@ STATUS CODE:
 200
 RESPONSE BODY:
 {"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
-]]></system-out>
-  </testcase>
-  <testcase name="verifyNoteCreation[, Some desc, emptyTitle](3)" classname="tests.ui.NotesUiTests" time="1.484"/>
-  <testcase name="verifyNoteCreation[Title only, , emptyDescription](4)" classname="tests.ui.NotesUiTests" time="1.579">
-    <system-err><![CDATA[May 28, 2026 1:51:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 28, 2026 1:51:59 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 28, 2026 1:52:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 28, 2026 1:52:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="verifyNoteCreation[, , emptyAll](5)" classname="tests.ui.NotesUiTests" time="1.535">
-    <system-err><![CDATA[May 28, 2026 1:52:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 28, 2026 1:52:05 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="verifyNoteCreation[@#$%^&amp;*, Special chars test, specialChars](6)" classname="tests.ui.NotesUiTests" time="1.446">
-    <system-err><![CDATA[May 28, 2026 1:52:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 28, 2026 1:52:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="verifyApiResponseTime" classname="tests.api.NotesPerformanceApiTests" time="1.446">
-    <system-out><![CDATA[STATUS CODE:
-200
-RESPONSE BODY:
-{"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
-{
-    "success": true,
-    "status": 200,
-    "message": "Notes successfully retrieved",
-    "data": [
-        {
-            "id": "6a17525951ccbd0297d3718f",
-            "title": "DeleteNote_662",
-            "description": "Delete validation",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T20:21:45.138Z",
-            "updated_at": "2026-05-27T20:21:45.138Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a17525051ccbd0297d3716d",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T20:21:36.012Z",
-            "updated_at": "2026-05-27T20:21:36.012Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a17524f51ccbd0297d37166",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T20:21:35.629Z",
-            "updated_at": "2026-05-27T20:21:35.629Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a1751ee51ccbd0297d370df",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T20:19:58.061Z",
-            "updated_at": "2026-05-27T20:19:58.061Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a1751e351ccbd0297d370c3",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T20:19:47.104Z",
-            "updated_at": "2026-05-27T20:19:47.104Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a1751e251ccbd0297d370bb",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T20:19:46.597Z",
-            "updated_at": "2026-05-27T20:19:46.597Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a174c8e51ccbd0297d36a70",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T19:57:02.301Z",
-            "updated_at": "2026-05-27T19:57:02.301Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a174c8251ccbd0297d36a33",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T19:56:50.827Z",
-            "updated_at": "2026-05-27T19:56:50.827Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a174c8151ccbd0297d36a26",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T19:56:49.899Z",
-            "updated_at": "2026-05-27T19:56:49.899Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a1710be51ccbd0297d32693",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:41:50.516Z",
-            "updated_at": "2026-05-27T15:41:50.516Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a17106451ccbd0297d325fd",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:40:20.860Z",
-            "updated_at": "2026-05-27T15:40:20.860Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a17106451ccbd0297d325f5",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:40:20.126Z",
-            "updated_at": "2026-05-27T15:40:20.126Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a170f3f51ccbd0297d323e4",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:35:27.667Z",
-            "updated_at": "2026-05-27T15:35:27.667Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a170ef751ccbd0297d3234b",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:34:15.868Z",
-            "updated_at": "2026-05-27T15:34:15.868Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a170ef651ccbd0297d32343",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:34:14.986Z",
-            "updated_at": "2026-05-27T15:34:14.986Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a170d9551ccbd0297d320f9",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:28:21.046Z",
-            "updated_at": "2026-05-27T15:28:21.046Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a170d2e51ccbd0297d3205f",
-            "title": "Delete Hybrid Note",
-            "description": "Delete validation",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:26:38.903Z",
-            "updated_at": "2026-05-27T15:26:38.903Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a170d2d51ccbd0297d32054",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T15:26:37.703Z",
-            "updated_at": "2026-05-27T15:26:37.703Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e2e353916b0295ce0938",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:26:11.342Z",
-            "updated_at": "2026-05-27T12:26:11.342Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e2c753916b0295ce0891",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:25:43.777Z",
-            "updated_at": "2026-05-27T12:25:43.777Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0d953916b0295ce05b4",
-            "title": "@#$%^&*",
-            "description": "Special chars test",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:17:29.773Z",
-            "updated_at": "2026-05-27T12:17:29.773Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0be53916b0295ce055b",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:17:02.574Z",
-            "updated_at": "2026-05-27T12:17:02.574Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0ac53916b0295ce04fc",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:16:44.562Z",
-            "updated_at": "2026-05-27T12:16:44.562Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16e0ab53916b0295ce04f1",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:16:43.597Z",
-            "updated_at": "2026-05-27T12:16:43.597Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16df7b53916b0295ce038a",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:11:39.708Z",
-            "updated_at": "2026-05-27T12:11:39.708Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16df6e53916b0295ce0332",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:11:26.908Z",
-            "updated_at": "2026-05-27T12:11:26.908Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16df6e53916b0295ce032e",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T12:11:26.763Z",
-            "updated_at": "2026-05-27T12:11:26.763Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16dc8353916b0295cdfd7d",
-            "title": "Test123",
-            "description": "Note description",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T11:58:59.318Z",
-            "updated_at": "2026-05-27T11:58:59.318Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16dc6a53916b0295cdfd14",
-            "title": "Hybrid Note",
-            "description": "Created from UI",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T11:58:34.451Z",
-            "updated_at": "2026-05-27T11:58:34.451Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a16dc6a53916b0295cdfd10",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-27T11:58:34.413Z",
-            "updated_at": "2026-05-27T11:58:34.413Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a1551ea53916b0295cce773",
-            "title": "Automation Note",
-            "description": "Created using Selenium",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-26T07:55:22.481Z",
-            "updated_at": "2026-05-26T07:55:22.481Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a140215038935029664bff7",
-            "title": "@#$%^&*",
-            "description": "Special chars test",
-            "category": "Home",
-            "completed": true,
-            "created_at": "2026-05-25T08:02:29.783Z",
-            "updated_at": "2026-05-25T09:06:25.803Z",
-            "user_id": "6a117227038935029662fbfe"
-        },
-        {
-            "id": "6a12ca44038935029663991b",
-            "title": "books",
-            "description": "reading rich dad poor dad",
-            "category": "Home",
-            "completed": false,
-            "created_at": "2026-05-24T09:52:04.157Z",
-            "updated_at": "2026-05-24T09:52:04.157Z",
-            "user_id": "6a117227038935029662fbfe"
-        }
-    ]
-}
-STATUS CODE:
-200
-RESPONSE BODY:
-{"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
-STATUS CODE:
-200
-RESPONSE BODY:
-{"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
-Actual API Response Time: 590 ms
-]]></system-out>
-    <system-err><![CDATA[May 28, 2026 1:51:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 28, 2026 1:51:45 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 28, 2026 1:51:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 28, 2026 1:51:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="verifyApiStabilityDuringMultipleRequests" classname="tests.api.NotesPerformanceApiTests" time="6.55">
-    <system-out><![CDATA[Request 6 Status Code: 200
+Request 6 Status Code: 200
 STATUS CODE:
 200
 RESPONSE BODY:
@@ -1586,12 +1382,59 @@ RESPONSE BODY:
 {"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
 Request 8 Status Code: 200
 ]]></system-out>
-    <system-err><![CDATA[May 28, 2026 1:51:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 28, 2026 12:24:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 28, 2026 1:51:54 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+May 28, 2026 12:24:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 28, 2026 12:24:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:24:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyDeletedNoteDisappearsFromUi" classname="tests.e2e.NotesDeletionHybridTests" time="0.661"/>
-  <testcase name="verifyDeletedNoteDoesNotReappearAfterRefresh" classname="tests.e2e.NotesDeletionHybridTests" time="14.548"/>
+  <testcase name="verifyNoteCreation[Automation Note, Created using Selenium, valid](1)" classname="tests.ui.NotesUiTests" time="1.433">
+    <system-out><![CDATA[STATUS CODE:
+200
+RESPONSE BODY:
+{"success":true,"status":200,"message":"Login successful","data":{"id":"6a117227038935029662fbfe","name":"user1","email":"testuser1+1@gmail.com","token":"7f4e95853c284f6a917d0fa48e07b29b1c05e48ef06f461886071cd2d203b3de"}}
+Request 1 Status Code: 200
+]]></system-out>
+  </testcase>
+  <testcase name="verifyNoteCreation[Test123, Note description, valid](2)" classname="tests.ui.NotesUiTests" time="34.267"/>
+  <testcase name="verifyNoteCreation[, Some desc, emptyTitle](3)" classname="tests.ui.NotesUiTests" time="2.036">
+    <system-err><![CDATA[May 28, 2026 12:25:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:25:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyNoteCreation[Title only, , emptyDescription](4)" classname="tests.ui.NotesUiTests" time="1.888">
+    <system-err><![CDATA[May 28, 2026 12:25:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:25:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyNoteCreation[, , emptyAll](5)" classname="tests.ui.NotesUiTests" time="1.713">
+    <system-err><![CDATA[May 28, 2026 12:25:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:25:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyNoteCreation[@#$%^&amp;*, Special chars test, specialChars](6)" classname="tests.ui.NotesUiTests" time="1.624">
+    <system-err><![CDATA[May 28, 2026 12:26:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:26:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyDeletedNoteDisappearsFromUi" classname="tests.e2e.NotesDeletionHybridTests" time="16.54"/>
+  <testcase name="verifyDeletedNoteDoesNotReappearAfterRefresh" classname="tests.e2e.NotesDeletionHybridTests" time="15.769">
+    <system-err><![CDATA[May 28, 2026 12:25:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:25:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
 </testsuite>

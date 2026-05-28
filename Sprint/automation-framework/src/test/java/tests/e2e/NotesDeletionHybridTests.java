@@ -1,7 +1,9 @@
 package tests.e2e;
 
 import api.NotesApi;
+
 import base.BaseTest;
+
 import io.restassured.response.Response;
 
 import org.testng.Assert;
@@ -20,7 +22,8 @@ public class NotesDeletionHybridTests
     // Unique title every run
 
     String title =
-        "DeleteNote_" + (int)(Math.random()*1000);
+            "DeleteNote_"
+            + System.currentTimeMillis();
 
     String description =
             "Delete validation";
@@ -52,7 +55,18 @@ public class NotesDeletionHybridTests
                 description
         );
 
-        // Get latest note id
+        // Wait for backend sync
+
+        Thread.sleep(3000);
+
+        // Verify note created
+
+        Assert.assertTrue(
+                notesPage.isNoteDisplayed(title),
+                "Created note not visible before deletion"
+        );
+
+        // Fetch latest note ID
 
         String noteId =
                 NotesApi.getLatestNoteId();
@@ -69,22 +83,24 @@ public class NotesDeletionHybridTests
                 200
         );
 
-        // Wait
+        // Wait after delete
 
         Thread.sleep(3000);
 
-        // Refresh UI
-
+        // Refresh page
         driver.navigate().refresh();
 
-        Thread.sleep(2000);
+        Thread.sleep(5000);
+        notesPage.refreshPage();
+
+        // Wait after refresh
+
+        Thread.sleep(3000);
 
         // Verify deleted note not visible
 
         Assert.assertFalse(
-                driver.getPageSource()
-                        .contains(title),
-
+                notesPage.isNoteDisplayed(title),
                 "Deleted note still visible in UI"
         );
     }
@@ -115,16 +131,16 @@ public class NotesDeletionHybridTests
 
         // Refresh again
 
-        driver.navigate().refresh();
+        notesPage.refreshPage();
 
-        Thread.sleep(2000);
+        // Wait after refresh
 
-        // Verify note not visible
+        Thread.sleep(3000);
+
+        // Verify note still absent
 
         Assert.assertFalse(
-                driver.getPageSource()
-                        .contains(title),
-
+                notesPage.isNoteDisplayed(title),
                 "Deleted note reappeared after refresh"
         );
     }

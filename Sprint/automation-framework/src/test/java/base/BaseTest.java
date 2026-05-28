@@ -2,12 +2,11 @@ package base;
 
 import drivers.DriverFactory;
 import drivers.DriverManager;
+
 import org.openqa.selenium.WebDriver;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
-import org.testng.ITestResult;
-import utils.ScreenshotUtils;
 
 import java.time.Duration;
 
@@ -15,32 +14,64 @@ public class BaseTest {
 
     protected WebDriver driver;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
+
     public void setUp() {
+
+        // Initialize browser
 
         DriverFactory.initDriver();
 
-        driver = DriverManager.getDriver();
+        driver =
+                DriverManager.getDriver();
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        // Browser timeouts
 
-        driver.get("https://practice.expandtesting.com/notes/app/login");
+        driver.manage()
+                .timeouts()
+                .implicitlyWait(
+                        Duration.ofSeconds(10)
+                );
+
+        driver.manage()
+                .timeouts()
+                .pageLoadTimeout(
+                        Duration.ofSeconds(60)
+                );
+
+        // Open application
+
+        driver.get(
+            "https://practice.expandtesting.com/notes/app/login"
+        );
     }
 
-    @AfterMethod
-    
+    // Used by listeners
 
-public void tearDown(
-        ITestResult result
-) {
+    public static WebDriver getDriver() {
 
-    if (result.getStatus()
-            == ITestResult.FAILURE) {
-
-        ScreenshotUtils
-                .captureScreenshot(driver);
+        return DriverManager.getDriver();
     }
 
-    DriverManager.quitDriver();
-}
+    @AfterMethod(alwaysRun = true)
+
+    public void tearDown() {
+
+        try {
+
+            WebDriver currentDriver =
+                    DriverManager.getDriver();
+
+            if (currentDriver != null) {
+
+                currentDriver.quit();
+
+                DriverManager.quitDriver();
+            }
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+        }
+    }
 }

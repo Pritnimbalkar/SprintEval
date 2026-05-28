@@ -1,7 +1,6 @@
 utils\ExcelUtils.class
 api\RequestSpecs.class
 api\NotesApi.class
-BasePage.class
 pages\LoginPage.class
 drivers\DriverManager.class
 utils\ScreenshotUtils.class

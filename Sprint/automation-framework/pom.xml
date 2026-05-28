@@ -37,12 +37,18 @@
         </dependency>
 
         <!-- TestNG -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>${testng.version}</version>
-            <scope>test</scope>
-        </dependency>
+
+    <dependency>
+
+        <groupId>org.testng</groupId>
+
+        <artifactId>testng</artifactId>
+
+        <version>7.10.2</version>
+
+    </dependency>
+
+
 
         <!-- Apache POI for Excel -->
     <dependency>
