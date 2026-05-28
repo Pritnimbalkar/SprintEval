@@ -32,13 +32,25 @@ pipeline {
             }
         }
 
-        stage('Allure Report') {
+        stage('Generate Allure Report') {
 
             steps {
 
-                allure includeProperties: false,
-                       jdk: '',
-                       results: [[path: 'target/allure-results']]
+                dir('Sprint/automation-framework') {
+
+                    bat 'D:\\allure2\\bin\\allure.bat generate allure-results --clean -o Defects'
+                }
+            }
+        }
+
+        stage('Open Allure Report') {
+
+            steps {
+
+                dir('Sprint/automation-framework') {
+
+                    bat 'D:\\allure2\\bin\\allure.bat open Defects'
+                }
             }
         }
     }
