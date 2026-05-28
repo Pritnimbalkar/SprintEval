@@ -31,26 +31,19 @@ pipeline {
                 }
             }
         }
+    }
 
-        stage('Generate Allure Report') {
+    post {
 
-            steps {
+        always {
 
-                dir('Sprint/automation-framework') {
+            dir('Sprint/automation-framework') {
 
-                    bat 'D:\\allure2\\bin\\allure.bat generate allure-results --clean -o Defects'
-                }
-            }
-        }
-
-        stage('Open Allure Report') {
-
-            steps {
-
-                dir('Sprint/automation-framework') {
-
-                    bat 'D:\\allure2\\bin\\allure.bat open Defects'
-                }
+                allure(
+                    includeProperties: false,
+                    jdk: '',
+                    results: [[path: 'allure-results']]
+                )
             }
         }
     }
